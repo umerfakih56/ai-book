@@ -1,0 +1,22 @@
+{
+  "name": "textbook",
+  "version": "1.0.0",
+  "description": "This repository contains a Docusaurus-based, Spec-Kit Plus structured textbook for **Physical AI & Humanoid Robotics**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2"
+  }
+}
