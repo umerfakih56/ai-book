@@ -1,0 +1,172 @@
+---
+title: ROS 2 Basics Quiz
+description: Comprehensive quiz covering ROS 2 fundamentals, architecture, and basic programming concepts
+sidebar_position: 1
+---
+
+# ROS 2 Basics Quiz
+
+Comprehensive quiz covering ROS 2 fundamentals, architecture, and basic programming concepts
+
+## Assessment Details
+
+- **Module**: module-1
+- **Type**: Quiz
+- **Duration**: 2 hours
+- **Points**: 100
+- **Week**: 5
+
+## Learning Outcomes Assessed
+
+- Explain ROS 2 architecture and design principles
+- Understand DDS communication middleware
+- Set up ROS 2 development environment
+- Navigate ROS 2 workspace structure
+
+## Prerequisites
+
+- Complete chapters 1.1 through 1.4
+- Basic Python programming knowledge
+- Linux command line familiarity
+
+## Quiz Questions
+
+*Total Questions: 7*
+
+### Question 1
+
+**Points**: 10 | **Difficulty**: beginner
+
+What is the primary communication middleware used by ROS 2?
+
+**Options**:
+1. TCP/IP
+2. DDS (Data Distribution Service)
+3. HTTP/HTTPS
+4. WebSocket
+
+**Correct Answer**: DDS (Data Distribution Service)
+
+**Explanation**: ROS 2 uses DDS as its underlying communication middleware, providing a robust publish-subscribe model for distributed systems.
+
+### Question 2
+
+**Points**: 10 | **Difficulty**: beginner
+
+Which command is used to create a new ROS 2 workspace?
+
+**Options**:
+1. ros2 create_workspace
+2. mkdir -p workspace/src
+3. colcon build
+4. ros2 init
+
+**Correct Answer**: mkdir -p workspace/src
+
+**Explanation**: A ROS 2 workspace is created by making a directory structure with a src subdirectory where packages are placed.
+
+### Question 3
+
+**Points**: 15 | **Difficulty**: intermediate
+
+ROS 2 nodes can communicate directly with each other without using topics.
+
+**Answer**: False
+
+**Explanation**: ROS 2 nodes primarily communicate through topics using the publish-subscribe pattern, though services and actions provide direct communication for specific use cases.
+
+### Question 4
+
+**Points**: 15 | **Difficulty**: intermediate
+
+What is the purpose of a URDF file in ROS 2?
+
+**Correct Answer**: To define robot models with physical properties, visual representations, and joint configurations
+
+**Explanation**: URDF (Unified Robot Description Format) files define the physical structure of robots including links, joints, sensors, and visual/collision geometries.
+
+### Question 5
+
+**Points**: 20 | **Difficulty**: intermediate
+
+Complete the following Python code to create a simple ROS 2 publisher:
+
+**Code Template**:
+```python
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+
+class SimplePublisher(Node):
+    def __init__(self):
+        super().__init__('simple_publisher')
+        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        timer_period = 1.0
+        self.timer = self.create_timer(timer_period, self.______)
+        self.count = 0
+    
+    def timer_callback(self):
+        msg = String()
+        msg.data = f'Hello World: {self.count}'
+        self.publisher_.publish(msg)
+        self.get_logger().info(f'Publishing: "{msg.data}"')
+        self.count += 1
+
+```
+
+**Answer**: `timer_callback`
+
+**Explanation**: The timer_callback method is passed to create_timer() to be called periodically at the specified rate.
+
+### Question 6
+
+**Points**: 10 | **Difficulty**: beginner
+
+Which ROS 2 command lists all available packages?
+
+**Options**:
+1. ros2 pkg list
+2. ros2 packages
+3. ros2 show packages
+4. ros2 list packages
+
+**Correct Answer**: ros2 pkg list
+
+**Explanation**: The 'ros2 pkg list' command displays all packages available in the current ROS 2 environment.
+
+### Question 7
+
+**Points**: 20 | **Difficulty**: intermediate
+
+Match the ROS 2 concept with its description:
+
+**Match the following**:
+- Node: Computational unit that performs processing
+- Topic: Named channel for message exchange
+- Service: Request-response communication pattern
+- Action: Long-running goal-oriented task
+
+
+## Quiz Instructions
+
+1. Read each question carefully before answering
+2. Select the best answer for multiple choice questions
+3. Provide concise answers for short answer questions
+4. Complete the code as specified for programming questions
+5. Review your answers before submitting
+
+## Resources
+
+- [ROS 2 Documentation](https://docs.ros.org/en/humble/)
+- [ROS 2 Tutorials](https://docs.ros.org/en/humble/Tutorials.html)
+- [Python rclpy API](https://docs.ros.org/en/humble/Contributing/APIs.html)
+
+## Submission Format
+
+Online quiz interface
+## Evaluation
+
+- **Total Points**: 100
+- **Passing Score**: 70
+- **Time Limit**: 120 minutes

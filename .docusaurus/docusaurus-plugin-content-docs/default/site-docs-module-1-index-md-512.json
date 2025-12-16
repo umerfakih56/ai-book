@@ -1,0 +1,29 @@
+{
+  "id": "module-1/index",
+  "title": "The Robotic Nervous System (ROS 2)",
+  "description": "Master the Robot Operating System 2 framework for building distributed robotic applications",
+  "source": "@site/docs/module-1/index.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/",
+  "permalink": "/docs/module-1/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-1/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "The Robotic Nervous System (ROS 2)",
+    "description": "Master the Robot Operating System 2 framework for building distributed robotic applications",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Chapter 1: ROS 2 Architecture",
+    "permalink": "/docs/module-1/ch1-1"
+  }
+}

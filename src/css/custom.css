@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root{
+	--ifm-color-primary: #001f3f; /* navy */
+	--ifm-color-primary-dark: #001737;
+	--ifm-color-primary-darker: #00112a;
+	--ifm-color-primary-darkest: #000b1f;
+	--ifm-color-primary-light: #4da8ff; /* light blue */
+	--ifm-color-primary-lighter: #6ec1ff;
+	--ifm-color-primary-lightest: #9fe3ff;
+	--ifm-code-font-size:95%;
+}
+
+html{font-family:"Inter",system-ui,-apple-system,sans-serif}
+
+.hero__title{font-size:3rem;font-weight:700;line-height:1.2}
+.hero__subtitle{font-size:1.5rem;font-weight:400;color:var(--ifm-color-emphasis-600)}
+
+/* Navbar overrides */
+.navbar, .navbar--dark {
+	background-color: var(--ifm-color-primary) !important;
+}
+.navbar__brand, .navbar__item, .navbar__title, .navbar a, .navbar__link {
+	color: #ffffff !important;
+}
+.navbar__link:hover, .navbar__item:hover {
+	color: var(--ifm-color-primary-light) !important;
+}
+
+/* Footer overrides */
+.footer {
+	background-color: #00172f;
+	color: #dbeafe;
+}
+.footer a {
+	color: var(--ifm-color-primary-light);
+}
+
+/* Buttons and links */
+.button--primary, .ifm-button-primary, .btn-primary {
+	background-color: var(--ifm-color-primary) !important;
+	border-color: var(--ifm-color-primary) !important;
+	color: #fff !important;
+}
+.button--primary:hover, .btn-primary:hover {
+	background-color: var(--ifm-color-primary-light) !important;
+	border-color: var(--ifm-color-primary-light) !important;
+}
+
+/* Code blocks: subtle accent */
+.theme-code-block, pre, code {
+	border-left: 4px solid var(--ifm-color-primary-lightest);
+}
+
+/* Accessibility tweaks: ensure focus outline is visible */
+a:focus, button:focus, input:focus {
+	outline: 3px solid var(--ifm-color-primary-light) !important;
+	outline-offset: 2px;
+}

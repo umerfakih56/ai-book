@@ -1,0 +1,31 @@
+{
+  "id": "module-3/ch3-3",
+  "title": "Path Planning with Nav2",
+  "description": "Advanced navigation systems using ROS 2 Navigation 2 framework for autonomous movement",
+  "source": "@site/docs/module-3/chapter-3.mdx",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/ch3-3",
+  "permalink": "/docs/module-3/ch3-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-3/chapter-3.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "ch3-3",
+    "title": "Path Planning with Nav2",
+    "sidebar_position": 3,
+    "duration": 13,
+    "difficulty": "advanced"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: AI Integration",
+    "permalink": "/docs/module-3/ch3-2"
+  },
+  "next": {
+    "title": "Chapter 4: Machine Learning",
+    "permalink": "/docs/module-3/ch3-4"
+  }
+}

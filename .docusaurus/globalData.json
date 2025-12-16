@@ -1,0 +1,177 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "assessments/assessments",
+              "path": "/docs/assessments/"
+            },
+            {
+              "id": "assessments/gazebo-robot-project",
+              "path": "/docs/assessments/gazebo-robot-project"
+            },
+            {
+              "id": "assessments/ros2-basics-quiz",
+              "path": "/docs/assessments/ros2-basics-quiz"
+            },
+            {
+              "id": "assessments/vla-capstone",
+              "path": "/docs/assessments/vla-capstone"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "learning-paths/complete-physical-ai",
+              "path": "/docs/learning-paths/complete-physical-ai"
+            },
+            {
+              "id": "learning-paths/learning-paths",
+              "path": "/docs/learning-paths/"
+            },
+            {
+              "id": "learning-paths/quick-start",
+              "path": "/docs/learning-paths/quick-start"
+            },
+            {
+              "id": "learning-paths/robotics-foundations",
+              "path": "/docs/learning-paths/robotics-foundations"
+            },
+            {
+              "id": "learning-paths/simulation-specialist",
+              "path": "/docs/learning-paths/simulation-specialist"
+            },
+            {
+              "id": "learning-paths/software-developer",
+              "path": "/docs/learning-paths/software-developer"
+            },
+            {
+              "id": "module-1/ch1-1",
+              "path": "/docs/module-1/ch1-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch1-2",
+              "path": "/docs/module-1/ch1-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch1-3",
+              "path": "/docs/module-1/ch1-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch1-4",
+              "path": "/docs/module-1/ch1-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/index",
+              "path": "/docs/module-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/ch2-1",
+              "path": "/docs/module-2/ch2-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/ch2-2",
+              "path": "/docs/module-2/ch2-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/ch2-3",
+              "path": "/docs/module-2/ch2-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/ch2-4",
+              "path": "/docs/module-2/ch2-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/index",
+              "path": "/docs/module-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/ch3-1",
+              "path": "/docs/module-3/ch3-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/ch3-2",
+              "path": "/docs/module-3/ch3-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/ch3-3",
+              "path": "/docs/module-3/ch3-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/ch3-4",
+              "path": "/docs/module-3/ch3-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/index",
+              "path": "/docs/module-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/ch4-1",
+              "path": "/docs/module-4/ch4-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/ch4-2",
+              "path": "/docs/module-4/ch4-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/ch4-3",
+              "path": "/docs/module-4/ch4-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/ch4-4",
+              "path": "/docs/module-4/ch4-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/index",
+              "path": "/docs/module-4/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "toc",
+              "path": "/docs/toc"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

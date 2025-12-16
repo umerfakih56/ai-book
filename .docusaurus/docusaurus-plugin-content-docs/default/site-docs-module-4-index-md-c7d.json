@@ -1,0 +1,29 @@
+{
+  "id": "module-4/index",
+  "title": "Vision-Language-Action (VLA)",
+  "description": "Integrate vision, language, and action systems for intelligent humanoid robot interaction",
+  "source": "@site/docs/module-4/index.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/",
+  "permalink": "/docs/module-4/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-4/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Vision-Language-Action (VLA)",
+    "description": "Integrate vision, language, and action systems for intelligent humanoid robot interaction",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: Machine Learning",
+    "permalink": "/docs/module-3/ch3-4"
+  },
+  "next": {
+    "title": "Chapter 1: VLA Fundamentals",
+    "permalink": "/docs/module-4/ch4-1"
+  }
+}

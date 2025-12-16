@@ -1,0 +1,71 @@
+{
+  "assessments": {
+    "ros2-basics-quiz": {
+      "title": "ROS 2 Basics Quiz",
+      "type": "quiz",
+      "points": 100,
+      "week": 5,
+      "passing_score": 70,
+      "time_limit": 120,
+      "questions": 7,
+      "tasks": 0
+    },
+    "gazebo-robot-project": {
+      "title": "Gazebo Project - Build Custom Robot",
+      "type": "project",
+      "points": 150,
+      "week": 7,
+      "passing_score": 70,
+      "time_limit": null,
+      "questions": 0,
+      "tasks": 4
+    },
+    "isaac-slam-project": {
+      "title": "Isaac SLAM Implementation Project",
+      "type": "project",
+      "points": 200,
+      "week": 10,
+      "passing_score": 70,
+      "time_limit": null,
+      "questions": 0,
+      "tasks": 4
+    },
+    "vla-capstone": {
+      "title": "VLA Capstone - Autonomous Humanoid",
+      "type": "capstone",
+      "points": 300,
+      "week": 13,
+      "passing_score": 70,
+      "time_limit": null,
+      "questions": 0,
+      "tasks": 4
+    }
+  },
+  "grading_scale": {
+    "A": "90-100",
+    "B": "80-89",
+    "C": "70-79",
+    "D": "60-69",
+    "F": "0-59"
+  },
+  "certificate_requirements": {
+    "minimum_grade": 70,
+    "required_assessments": [
+      "ros2-basics-quiz",
+      "gazebo-robot-project",
+      "isaac-slam-project",
+      "vla-capstone"
+    ],
+    "additional_criteria": [
+      "Complete all learning path requirements",
+      "Submit all project deliverables on time",
+      "Demonstrate practical competency in final presentation"
+    ]
+  },
+  "evaluation_weights": {
+    "ros2-basics-quiz": 15,
+    "gazebo-robot-project": 20,
+    "isaac-slam-project": 25,
+    "vla-capstone": 40
+  }
+}
