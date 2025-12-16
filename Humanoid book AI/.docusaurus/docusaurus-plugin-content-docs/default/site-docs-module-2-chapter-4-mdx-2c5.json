@@ -1,0 +1,31 @@
+{
+  "id": "module-2/ch2-4",
+  "title": "Environment and Scene Building",
+  "description": "Create complex simulation environments and scenes for testing humanoid robots",
+  "source": "@site/docs/module-2/chapter-4.mdx",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/ch2-4",
+  "permalink": "/docs/module-2/ch2-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-2/chapter-4.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "ch2-4",
+    "title": "Environment and Scene Building",
+    "sidebar_position": 4,
+    "duration": 11,
+    "difficulty": "intermediate"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Unity Robotics",
+    "permalink": "/docs/module-2/ch2-3"
+  },
+  "next": {
+    "title": "Module Overview",
+    "permalink": "/docs/module-3/"
+  }
+}

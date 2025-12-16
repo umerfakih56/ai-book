@@ -1,0 +1,31 @@
+{
+  "id": "module-4/ch4-2",
+  "title": "LLM-based Cognitive Planning",
+  "description": "Utilize Large Language Models for robot task planning and decision making",
+  "source": "@site/docs/module-4/chapter-2.mdx",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/ch4-2",
+  "permalink": "/docs/module-4/ch4-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-4/chapter-2.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "ch4-2",
+    "title": "LLM-based Cognitive Planning",
+    "sidebar_position": 2,
+    "duration": 13,
+    "difficulty": "advanced"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: VLA Fundamentals",
+    "permalink": "/docs/module-4/ch4-1"
+  },
+  "next": {
+    "title": "Chapter 3: Vision Systems",
+    "permalink": "/docs/module-4/ch4-3"
+  }
+}

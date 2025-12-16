@@ -1,0 +1,31 @@
+{
+  "id": "module-3/ch3-4",
+  "title": "Sim-to-Real Transfer Techniques",
+  "description": "Bridge the gap between simulation and real-world robot deployment",
+  "source": "@site/docs/module-3/chapter-4.mdx",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/ch3-4",
+  "permalink": "/docs/module-3/ch3-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-3/chapter-4.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "ch3-4",
+    "title": "Sim-to-Real Transfer Techniques",
+    "sidebar_position": 4,
+    "duration": 10,
+    "difficulty": "advanced"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Computer Vision",
+    "permalink": "/docs/module-3/ch3-3"
+  },
+  "next": {
+    "title": "Module Overview",
+    "permalink": "/docs/module-4/"
+  }
+}

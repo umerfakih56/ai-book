@@ -1,0 +1,31 @@
+{
+  "id": "module-1/ch1-2",
+  "title": "Nodes, Topics, Services & Actions",
+  "description": "Deep dive into ROS 2 communication patterns including publish/subscribe, request/response, and goal-based interactions",
+  "source": "@site/docs/module-1/chapter-2.mdx",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ch1-2",
+  "permalink": "/docs/module-1/ch1-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/docs/module-1/chapter-2.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "ch1-2",
+    "title": "Nodes, Topics, Services & Actions",
+    "sidebar_position": 2,
+    "duration": 12,
+    "difficulty": "intermediate"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: ROS 2 Architecture",
+    "permalink": "/docs/module-1/ch1-1"
+  },
+  "next": {
+    "title": "Chapter 3: Services and Actions",
+    "permalink": "/docs/module-1/ch1-3"
+  }
+}
