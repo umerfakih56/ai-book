@@ -4,7 +4,7 @@ const config = {
   url: "http://localhost:3000",  // Using localhost for development
   baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "neha-haneef115",
+  organizationName: "umerfakih56",
   projectName: "Physical-AI-Humanoid-Robotics-Course-Book",
 
   i18n: {
@@ -36,7 +36,7 @@ const config = {
           label: "Course" 
         },
         { 
-          to: "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book", 
+          to: "https://github.com/umerfakih56/ai-book", 
           label: "GitHub", 
           position: "right" 
         },
@@ -72,7 +72,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/",
+          editUrl: "https://github.com/umerfakih56/ai-book",
         },
         blog: false,
         theme: {
