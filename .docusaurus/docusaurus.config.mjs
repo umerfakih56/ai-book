@@ -9,7 +9,7 @@ export default {
   "url": "http://localhost:3000",
   "baseUrl": "/",
   "favicon": "img/favicon.ico",
-  "organizationName": "neha-haneef115",
+  "organizationName": "umerfakih56",
   "projectName": "Physical-AI-Humanoid-Robotics-Course-Book",
   "i18n": {
     "defaultLocale": "en",
@@ -41,7 +41,7 @@ export default {
           "label": "Course"
         },
         {
-          "to": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book",
+          "to": "https://github.com/umerfakih56/ai-book",
           "label": "GitHub",
           "position": "right"
         },
@@ -240,12 +240,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\COMFINITE\\Desktop\\copy\\Humanoid book AI\\sidebars.js",
-          "editUrl": "https://github.com/neha-haneef115/Physical-AI-Humanoid-Robotics-Course-Book/edit/main/"
+          "sidebarPath": "C:\\Users\\COMFINITE\\Desktop\\humanoidbook\\Humanoid book AI\\sidebars.js",
+          "editUrl": "https://github.com/umerfakih56/ai-book"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\COMFINITE\\Desktop\\copy\\Humanoid book AI\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\COMFINITE\\Desktop\\humanoidbook\\Humanoid book AI\\src\\css\\custom.css"
         }
       }
     ]

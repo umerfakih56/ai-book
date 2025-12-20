@@ -42,6 +42,13 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
+  "/chat-07b": {
+    "__comp": "__comp---site-src-pages-chat-jse-82-5e8",
+    "__context": {
+      "plugin": "plugin---chata-74-e74"
+    },
+    "config": "config---chat-5-e-9-b86"
+  },
   "/docs-bad": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
@@ -186,8 +193,8 @@
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---chata-74-e74"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---chat-5-e-9-b86"
   }
 }
