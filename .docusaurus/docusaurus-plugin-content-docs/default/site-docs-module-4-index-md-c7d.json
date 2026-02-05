@@ -1,0 +1,20 @@
+{
+  "id": "module-4/index",
+  "title": "Vision-Language-Action (VLA)",
+  "description": "Integrate vision, language, and action systems for intelligent humanoid robot interaction",
+  "source": "@site/docs/module-4/index.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/",
+  "permalink": "/ur/docs/module-4/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-4/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Vision-Language-Action (VLA)",
+    "description": "Integrate vision, language, and action systems for intelligent humanoid robot interaction",
+    "sidebar_position": 1
+  }
+}

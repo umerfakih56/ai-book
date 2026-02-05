@@ -1,0 +1,108 @@
+.robot-icon {
+  display: inline-block;
+  position: relative;
+}
+
+/* Blinking animation for eyes */
+.robot-icon .left-eye,
+.robot-icon .right-eye {
+  animation: blink 6s infinite;
+}
+
+.robot-icon .left-eye {
+  animation-delay: 0s;
+}
+
+.robot-icon .right-eye {
+  animation-delay: 0.1s;
+}
+
+@keyframes blink {
+  0%, 90%, 100% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.1;
+  }
+}
+
+/* Hover effects */
+.robot-icon:hover .pupil {
+  animation: none;
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.robot-icon:hover .mouth {
+  animation: none;
+  transform: scale(1.1);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.robot-icon:hover .antenna-led {
+  animation-duration: 0.5s;
+}
+
+.robot-icon:hover .led-glow {
+  animation-duration: 0.5s;
+}
+
+/* Floating animation for the entire icon */
+.robot-icon {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+/* Pulse effect for chat button */
+.chatbot-button .robot-icon {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Size variations */
+.robot-icon.small {
+  width: 24px;
+  height: 24px;
+}
+
+.robot-icon.large {
+  width: 48px;
+  height: 48px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .robot-icon .pupil {
+    fill: #ecf0f1;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .robot-icon,
+  .robot-icon .left-eye,
+  .robot-icon .right-eye,
+  .robot-icon .pupil,
+  .robot-icon .mouth,
+  .robot-icon .antenna-led,
+  .robot-icon .led-glow {
+    animation: none;
+  }
+}

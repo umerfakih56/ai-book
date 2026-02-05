@@ -1,0 +1,28 @@
+{
+  "id": "part2-simulation/chapter-3-urdf",
+  "title": "Chapter 3: Robot Modeling with URDF/SDF",
+  "description": "3.1 Unified Robot Description Format (URDF)",
+  "source": "@site/docs/part2-simulation/chapter-3-urdf.md",
+  "sourceDirName": "part2-simulation",
+  "slug": "/part2-simulation/chapter-3-urdf",
+  "permalink": "/ur/docs/part2-simulation/chapter-3-urdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part2-simulation/chapter-3-urdf.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Chapter 3: Robot Modeling with URDF/SDF",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Fundamentals of ROS 2",
+    "permalink": "/ur/docs/part1-foundations/chapter-2-ros2"
+  },
+  "next": {
+    "title": "Chapter 4: Physics Simulation with Gazebo",
+    "permalink": "/ur/docs/part2-simulation/chapter-4-gazebo"
+  }
+}

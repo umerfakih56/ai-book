@@ -1,0 +1,20 @@
+{
+  "id": "learning-paths/simulation-specialist",
+  "title": "Simulation Specialist",
+  "description": "Focused track on robot simulation, digital twins, and virtual testing environments. Perfect for simulation engineers and digital twin developers.",
+  "source": "@site/docs/learning-paths/simulation-specialist.mdx",
+  "sourceDirName": "learning-paths",
+  "slug": "/learning-paths/simulation-specialist",
+  "permalink": "/ur/docs/learning-paths/simulation-specialist",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/learning-paths/simulation-specialist.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Simulation Specialist",
+    "description": "Focused track on robot simulation, digital twins, and virtual testing environments. Perfect for simulation engineers and digital twin developers.",
+    "sidebar_position": 1
+  }
+}

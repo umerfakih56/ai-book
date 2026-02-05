@@ -1,0 +1,20 @@
+{
+  "id": "learning-paths/software-developer",
+  "title": "Software Developer Track",
+  "description": "Focus on software development aspects: ROS 2 programming and VLA integration. Ideal for software engineers entering robotics.",
+  "source": "@site/docs/learning-paths/software-developer.mdx",
+  "sourceDirName": "learning-paths",
+  "slug": "/learning-paths/software-developer",
+  "permalink": "/ur/docs/learning-paths/software-developer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/learning-paths/software-developer.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Software Developer Track",
+    "description": "Focus on software development aspects: ROS 2 programming and VLA integration. Ideal for software engineers entering robotics.",
+    "sidebar_position": 1
+  }
+}

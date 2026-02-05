@@ -1,0 +1,20 @@
+{
+  "id": "learning-paths/learning-paths",
+  "title": "Learning Paths",
+  "description": "Choose your learning journey through Physical AI & Humanoid Robotics",
+  "source": "@site/docs/learning-paths/learning-paths.mdx",
+  "sourceDirName": "learning-paths",
+  "slug": "/learning-paths/",
+  "permalink": "/ur/docs/learning-paths/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/learning-paths/learning-paths.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Learning Paths",
+    "description": "Choose your learning journey through Physical AI & Humanoid Robotics",
+    "sidebar_position": 2
+  }
+}

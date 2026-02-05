@@ -1,0 +1,20 @@
+{
+  "id": "learning-paths/robotics-foundations",
+  "title": "Robotics Foundations",
+  "description": "First 5 weeks focusing on fundamentals. Ideal for beginners building strong foundational knowledge.",
+  "source": "@site/docs/learning-paths/robotics-foundations.mdx",
+  "sourceDirName": "learning-paths",
+  "slug": "/learning-paths/robotics-foundations",
+  "permalink": "/ur/docs/learning-paths/robotics-foundations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/learning-paths/robotics-foundations.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Robotics Foundations",
+    "description": "First 5 weeks focusing on fundamentals. Ideal for beginners building strong foundational knowledge.",
+    "sidebar_position": 1
+  }
+}

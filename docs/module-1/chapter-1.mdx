@@ -1,0 +1,147 @@
+---
+id: ch1-1
+title: ROS 2 Architecture & Concepts
+sidebar_position: 1
+duration: 10
+difficulty: beginner
+---
+
+# ROS 2 Architecture & Concepts
+
+Introduction to ROS 2 framework, its architecture, and core concepts for robotic development
+
+## Learning Outcomes
+
+- Explain ROS 2 architecture and design principles
+- Understand DDS communication middleware
+- Set up ROS 2 development environment
+- Navigate ROS 2 workspace structure
+
+## Prerequisites
+
+- Basic programming knowledge
+- Linux fundamentals
+
+## Introduction
+
+Welcome to ROS 2 Architecture & Concepts. This chapter will guide you through the essential concepts and practical applications needed to master introduction to ros 2 framework, its architecture, and core concepts for robotic development.
+
+Throughout this chapter, you'll build a strong foundation that will serve you well as you progress through The Robotic Nervous System (ROS 2). We'll start with the fundamentals and gradually move to more advanced topics, ensuring you have plenty of hands-on practice along the way.
+
+By the end of this chapter, you'll have the knowledge and skills to confidently work with ros 2 architecture & concepts in real-world robotic applications.
+## Key Concepts
+
+### ROS 2 Architecture Overview
+
+ROS 2 (Robot Operating System 2) is a flexible framework for writing robot software. It provides a collection of tools, libraries, and conventions that simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms. The architecture is based on a distributed computing model where different processes communicate over a network using the Data Distribution Service (DDS) standard.
+
+### DDS Communication Middleware
+
+The Data Distribution Service (DDS) is the underlying communication middleware in ROS 2. It provides a publish-subscribe model that allows different nodes to communicate asynchronously. DDS handles discovery, data serialization, and transport mechanisms, making it ideal for real-time robotic applications where reliability and performance are critical.
+
+### ROS 2 Workspace Structure
+
+A ROS 2 workspace is a directory where you develop, build, and install ROS 2 packages. The standard structure includes a `src` directory for source code, `build` and `install` directories created during compilation, and a `log` directory for build logs. Understanding this structure is essential for organizing your robotic projects effectively.
+
+
+## Code Examples
+
+### Setting up ROS 2 Environment
+
+Initialize your ROS 2 workspace and set up the environment
+
+```bash
+# Source ROS 2 setup
+source /opt/ros/humble/setup.bash
+
+# Create a new workspace
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws
+
+# Build the workspace
+colcon build
+
+# Source the workspace
+source install/setup.bash
+```
+
+This sequence of commands sets up a basic ROS 2 workspace. First, we source the ROS 2 installation, then create the workspace structure, build any packages, and finally source the workspace to make it available in the current shell session.
+
+### Checking ROS 2 Installation
+
+Verify that ROS 2 is properly installed and configured
+
+```bash
+# Check ROS 2 version
+ros2 --version
+
+# List available packages
+ros2 pkg list
+
+# Test with a talker node
+ros2 run demo_nodes_cpp talker
+```
+
+These commands help verify your ROS 2 installation. The version check confirms ROS 2 is installed, listing packages shows available functionality, and running the talker node demonstrates the communication system is working.
+
+
+## Practical Exercises
+
+### Exercise 1: ROS 2 Environment Setup
+
+**Objective**: Set up a complete ROS 2 development environment
+
+**Instructions**: 1. Install ROS 2 Humble on your system
+2. Create a new workspace directory
+3. Build the workspace using colcon
+4. Verify the installation by running demo nodes
+
+**Expected Results**: You should have a working ROS 2 environment where you can run demo nodes and create new packages.
+
+### Exercise 2: Workspace Navigation
+
+**Objective**: Master ROS 2 workspace commands and structure
+
+**Instructions**: 1. Navigate through different workspace directories
+2. Use ros2 CLI commands to explore packages
+3. Practice sourcing different workspaces
+4. Create and build a simple package
+
+**Expected Results**: You should be comfortable navigating ROS 2 workspaces and using the basic CLI tools.
+
+
+## Assessment
+
+This chapter contributes to your overall assessment for The Robotic Nervous System (ROS 2). 
+
+**Assessment Type**: Project-based evaluation
+
+**Key Tasks**:
+1. Complete all practical exercises successfully
+2. Demonstrate understanding of key concepts through code implementation
+3. Document your learning process and challenges encountered
+
+**Evaluation Criteria**:
+- Code quality and functionality (40%)
+- Understanding of concepts (30%)
+- Documentation and explanation (20%)
+- Innovation and creativity (10%)
+
+**Submission Requirements**:
+- Submit your code implementations
+- Include a brief explanation of your approach
+- Provide screenshots or videos of working examples
+- Reflect on challenges and solutions
+## Resources
+
+- [https://docs.ros.org/en/humble/](https://docs.ros.org/en/humble/)
+- [https://www.ros.org/](https://www.ros.org/)
+- [https://github.com/ros2/ros2_documentation](https://github.com/ros2/ros2_documentation)
+
+- [Official Documentation](https://docs.ros.org/)
+- [Video Tutorials](https://www.youtube.com/results?search_query=ROS+2+Architecture+&+Concepts)
+- [Community Forums](https://answers.ros.org/)
+
+## What's Next
+
+Continue to [Chapter 2](chapter-2.mdx) to learn more about The Robotic Nervous System (ROS 2).

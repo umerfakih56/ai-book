@@ -1,0 +1,22 @@
+{
+  "id": "module-2/ch2-2",
+  "title": "Physics Simulation & Collisions",
+  "description": "Master physics engines, collision detection, and realistic material properties",
+  "source": "@site/docs/module-2/chapter-2.mdx",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/ch2-2",
+  "permalink": "/ur/docs/module-2/ch2-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-2/chapter-2.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "ch2-2",
+    "title": "Physics Simulation & Collisions",
+    "sidebar_position": 2,
+    "duration": 10,
+    "difficulty": "advanced"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "part5-humanoid-dev/chapter-12-capstone",
+  "title": "Chapter 12: Humanoid Robotics Capstone Project",
+  "description": "Building an Interactive Humanoid Assistant",
+  "source": "@site/docs/part5-humanoid-dev/chapter-12-capstone.md",
+  "sourceDirName": "part5-humanoid-dev",
+  "slug": "/part5-humanoid-dev/chapter-12-capstone",
+  "permalink": "/ur/docs/part5-humanoid-dev/chapter-12-capstone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part5-humanoid-dev/chapter-12-capstone.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "title": "Chapter 12: Humanoid Robotics Capstone Project",
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 11: Human-Robot Interaction",
+    "permalink": "/ur/docs/part5-humanoid-dev/chapter-11-hri"
+  }
+}

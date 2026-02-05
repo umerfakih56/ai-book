@@ -1,0 +1,20 @@
+{
+  "id": "assessments/gazebo-robot-project",
+  "title": "Gazebo Project - Build Custom Robot",
+  "description": "Design, build, and simulate a custom mobile robot in Gazebo with sensors and navigation capabilities",
+  "source": "@site/docs/assessments/gazebo-robot-project.mdx",
+  "sourceDirName": "assessments",
+  "slug": "/assessments/gazebo-robot-project",
+  "permalink": "/ur/docs/assessments/gazebo-robot-project",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/assessments/gazebo-robot-project.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Gazebo Project - Build Custom Robot",
+    "description": "Design, build, and simulate a custom mobile robot in Gazebo with sensors and navigation capabilities",
+    "sidebar_position": 1
+  }
+}

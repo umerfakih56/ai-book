@@ -1,0 +1,28 @@
+{
+  "id": "part1-foundations/chapter-2-ros2",
+  "title": "Chapter 2: Fundamentals of Robot Operating System (ROS 2)",
+  "description": "2.1 ROS 2 Architecture & Core Concepts",
+  "source": "@site/docs/part1-foundations/chapter-2-ros2.md",
+  "sourceDirName": "part1-foundations",
+  "slug": "/part1-foundations/chapter-2-ros2",
+  "permalink": "/ur/docs/part1-foundations/chapter-2-ros2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part1-foundations/chapter-2-ros2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Chapter 2: Fundamentals of Robot Operating System (ROS 2)",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to Physical AI",
+    "permalink": "/ur/docs/part1-foundations/chapter-1-intro"
+  },
+  "next": {
+    "title": "Chapter 3: Robot Modeling with URDF/SDF",
+    "permalink": "/ur/docs/part2-simulation/chapter-3-urdf"
+  }
+}

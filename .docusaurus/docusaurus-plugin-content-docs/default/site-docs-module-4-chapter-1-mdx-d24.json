@@ -1,0 +1,22 @@
+{
+  "id": "module-4/ch4-1",
+  "title": "Voice-to-Action Systems (Whisper)",
+  "description": "Implement speech recognition and command interpretation using OpenAI Whisper",
+  "source": "@site/docs/module-4/chapter-1.mdx",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/ch4-1",
+  "permalink": "/ur/docs/module-4/ch4-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-4/chapter-1.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "ch4-1",
+    "title": "Voice-to-Action Systems (Whisper)",
+    "sidebar_position": 1,
+    "duration": 14,
+    "difficulty": "advanced"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "part1-foundations/chapter-1-intro",
+  "title": "Chapter 1: Introduction to Physical AI",
+  "description": "1.1 What is Physical AI?",
+  "source": "@site/docs/part1-foundations/chapter-1-intro.md",
+  "sourceDirName": "part1-foundations",
+  "slug": "/part1-foundations/chapter-1-intro",
+  "permalink": "/ur/docs/part1-foundations/chapter-1-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part1-foundations/chapter-1-intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Chapter 1: Introduction to Physical AI",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Course Overview",
+    "permalink": "/ur/docs/intro"
+  },
+  "next": {
+    "title": "Chapter 2: Fundamentals of ROS 2",
+    "permalink": "/ur/docs/part1-foundations/chapter-2-ros2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "part4-ai-integration/chapter-8-vla",
+  "title": "Chapter 8: Vision-Language-Action (VLA) Models",
+  "description": "8.1 Bridging LLMs and Robotics",
+  "source": "@site/docs/part4-ai-integration/chapter-8-vla.md",
+  "sourceDirName": "part4-ai-integration",
+  "slug": "/part4-ai-integration/chapter-8-vla",
+  "permalink": "/ur/docs/part4-ai-integration/chapter-8-vla",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part4-ai-integration/chapter-8-vla.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Chapter 8: Vision-Language-Action (VLA) Models",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 7: Visual SLAM with Isaac ROS",
+    "permalink": "/ur/docs/part3-perception/chapter-7-slam"
+  },
+  "next": {
+    "title": "Chapter 9: Reinforcement Learning for Robot Control",
+    "permalink": "/ur/docs/part4-ai-integration/chapter-9-rl"
+  }
+}

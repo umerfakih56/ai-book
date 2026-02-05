@@ -1,0 +1,20 @@
+{
+  "id": "module-1/index",
+  "title": "The Robotic Nervous System (ROS 2)",
+  "description": "Master the Robot Operating System 2 framework for building distributed robotic applications",
+  "source": "@site/docs/module-1/index.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/",
+  "permalink": "/ur/docs/module-1/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-1/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "The Robotic Nervous System (ROS 2)",
+    "description": "Master the Robot Operating System 2 framework for building distributed robotic applications",
+    "sidebar_position": 1
+  }
+}

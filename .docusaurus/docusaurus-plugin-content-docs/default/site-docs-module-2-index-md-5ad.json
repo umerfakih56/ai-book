@@ -1,0 +1,20 @@
+{
+  "id": "module-2/index",
+  "title": "The Digital Twin (Gazebo & Unity)",
+  "description": "Create realistic robot simulations using Gazebo and Unity for testing and development",
+  "source": "@site/docs/module-2/index.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/",
+  "permalink": "/ur/docs/module-2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-2/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "The Digital Twin (Gazebo & Unity)",
+    "description": "Create realistic robot simulations using Gazebo and Unity for testing and development",
+    "sidebar_position": 1
+  }
+}

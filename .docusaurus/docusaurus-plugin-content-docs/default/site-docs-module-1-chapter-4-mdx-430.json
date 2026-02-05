@@ -1,0 +1,22 @@
+{
+  "id": "module-1/ch1-4",
+  "title": "Python rclpy Programming",
+  "description": "Develop complete ROS 2 applications using Python client library rclpy",
+  "source": "@site/docs/module-1/chapter-4.mdx",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ch1-4",
+  "permalink": "/ur/docs/module-1/ch1-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-1/chapter-4.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "ch1-4",
+    "title": "Python rclpy Programming",
+    "sidebar_position": 4,
+    "duration": 8,
+    "difficulty": "intermediate"
+  }
+}

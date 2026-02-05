@@ -1,0 +1,22 @@
+{
+  "id": "module-1/ch1-3",
+  "title": "URDF & Robot Description Formats",
+  "description": "Learn to create robot models using Unified Robot Description Format and visual representations",
+  "source": "@site/docs/module-1/chapter-3.mdx",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ch1-3",
+  "permalink": "/ur/docs/module-1/ch1-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-1/chapter-3.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "ch1-3",
+    "title": "URDF & Robot Description Formats",
+    "sidebar_position": 3,
+    "duration": 10,
+    "difficulty": "intermediate"
+  }
+}

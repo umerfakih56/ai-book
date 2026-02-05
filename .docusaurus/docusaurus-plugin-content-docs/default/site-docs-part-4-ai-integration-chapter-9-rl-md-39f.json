@@ -1,0 +1,28 @@
+{
+  "id": "part4-ai-integration/chapter-9-rl",
+  "title": "Chapter 9: Reinforcement Learning for Robot Control",
+  "description": "9.1 Basics of RL for Robotics",
+  "source": "@site/docs/part4-ai-integration/chapter-9-rl.md",
+  "sourceDirName": "part4-ai-integration",
+  "slug": "/part4-ai-integration/chapter-9-rl",
+  "permalink": "/ur/docs/part4-ai-integration/chapter-9-rl",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part4-ai-integration/chapter-9-rl.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Chapter 9: Reinforcement Learning for Robot Control",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 8: Vision-Language-Action Models",
+    "permalink": "/ur/docs/part4-ai-integration/chapter-8-vla"
+  },
+  "next": {
+    "title": "Chapter 10: Humanoid Kinematics & Dynamics",
+    "permalink": "/ur/docs/part5-humanoid-dev/chapter-10-kinematics"
+  }
+}

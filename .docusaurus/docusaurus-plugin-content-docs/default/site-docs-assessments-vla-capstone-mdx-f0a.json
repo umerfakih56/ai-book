@@ -1,0 +1,20 @@
+{
+  "id": "assessments/vla-capstone",
+  "title": "VLA Capstone - Autonomous Humanoid",
+  "description": "Complete integration project building an autonomous humanoid robot with full Vision-Language-Action capabilities",
+  "source": "@site/docs/assessments/vla-capstone.mdx",
+  "sourceDirName": "assessments",
+  "slug": "/assessments/vla-capstone",
+  "permalink": "/ur/docs/assessments/vla-capstone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/assessments/vla-capstone.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "VLA Capstone - Autonomous Humanoid",
+    "description": "Complete integration project building an autonomous humanoid robot with full Vision-Language-Action capabilities",
+    "sidebar_position": 1
+  }
+}

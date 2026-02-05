@@ -1,0 +1,217 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ur/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ur/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "assessments/assessments",
+              "path": "/ur/docs/assessments/"
+            },
+            {
+              "id": "assessments/gazebo-robot-project",
+              "path": "/ur/docs/assessments/gazebo-robot-project"
+            },
+            {
+              "id": "assessments/ros2-basics-quiz",
+              "path": "/ur/docs/assessments/ros2-basics-quiz"
+            },
+            {
+              "id": "assessments/vla-capstone",
+              "path": "/ur/docs/assessments/vla-capstone"
+            },
+            {
+              "id": "intro",
+              "path": "/ur/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "learning-paths/complete-physical-ai",
+              "path": "/ur/docs/learning-paths/complete-physical-ai"
+            },
+            {
+              "id": "learning-paths/learning-paths",
+              "path": "/ur/docs/learning-paths/"
+            },
+            {
+              "id": "learning-paths/quick-start",
+              "path": "/ur/docs/learning-paths/quick-start"
+            },
+            {
+              "id": "learning-paths/robotics-foundations",
+              "path": "/ur/docs/learning-paths/robotics-foundations"
+            },
+            {
+              "id": "learning-paths/simulation-specialist",
+              "path": "/ur/docs/learning-paths/simulation-specialist"
+            },
+            {
+              "id": "learning-paths/software-developer",
+              "path": "/ur/docs/learning-paths/software-developer"
+            },
+            {
+              "id": "module-1/ch1-1",
+              "path": "/ur/docs/module-1/ch1-1"
+            },
+            {
+              "id": "module-1/ch1-2",
+              "path": "/ur/docs/module-1/ch1-2"
+            },
+            {
+              "id": "module-1/ch1-3",
+              "path": "/ur/docs/module-1/ch1-3"
+            },
+            {
+              "id": "module-1/ch1-4",
+              "path": "/ur/docs/module-1/ch1-4"
+            },
+            {
+              "id": "module-1/index",
+              "path": "/ur/docs/module-1/"
+            },
+            {
+              "id": "module-2/ch2-1",
+              "path": "/ur/docs/module-2/ch2-1"
+            },
+            {
+              "id": "module-2/ch2-2",
+              "path": "/ur/docs/module-2/ch2-2"
+            },
+            {
+              "id": "module-2/ch2-3",
+              "path": "/ur/docs/module-2/ch2-3"
+            },
+            {
+              "id": "module-2/ch2-4",
+              "path": "/ur/docs/module-2/ch2-4"
+            },
+            {
+              "id": "module-2/index",
+              "path": "/ur/docs/module-2/"
+            },
+            {
+              "id": "module-3/ch3-1",
+              "path": "/ur/docs/module-3/ch3-1"
+            },
+            {
+              "id": "module-3/ch3-2",
+              "path": "/ur/docs/module-3/ch3-2"
+            },
+            {
+              "id": "module-3/ch3-3",
+              "path": "/ur/docs/module-3/ch3-3"
+            },
+            {
+              "id": "module-3/ch3-4",
+              "path": "/ur/docs/module-3/ch3-4"
+            },
+            {
+              "id": "module-3/index",
+              "path": "/ur/docs/module-3/"
+            },
+            {
+              "id": "module-4/ch4-1",
+              "path": "/ur/docs/module-4/ch4-1"
+            },
+            {
+              "id": "module-4/ch4-2",
+              "path": "/ur/docs/module-4/ch4-2"
+            },
+            {
+              "id": "module-4/ch4-3",
+              "path": "/ur/docs/module-4/ch4-3"
+            },
+            {
+              "id": "module-4/ch4-4",
+              "path": "/ur/docs/module-4/ch4-4"
+            },
+            {
+              "id": "module-4/index",
+              "path": "/ur/docs/module-4/"
+            },
+            {
+              "id": "part1-foundations/chapter-1-intro",
+              "path": "/ur/docs/part1-foundations/chapter-1-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1-foundations/chapter-2-ros2",
+              "path": "/ur/docs/part1-foundations/chapter-2-ros2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2-simulation/chapter-3-urdf",
+              "path": "/ur/docs/part2-simulation/chapter-3-urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2-simulation/chapter-4-gazebo",
+              "path": "/ur/docs/part2-simulation/chapter-4-gazebo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2-simulation/chapter-5-isaac",
+              "path": "/ur/docs/part2-simulation/chapter-5-isaac",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3-perception/chapter-6-vision",
+              "path": "/ur/docs/part3-perception/chapter-6-vision",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3-perception/chapter-7-slam",
+              "path": "/ur/docs/part3-perception/chapter-7-slam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4-ai-integration/chapter-8-vla",
+              "path": "/ur/docs/part4-ai-integration/chapter-8-vla",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4-ai-integration/chapter-9-rl",
+              "path": "/ur/docs/part4-ai-integration/chapter-9-rl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5-humanoid-dev/chapter-10-kinematics",
+              "path": "/ur/docs/part5-humanoid-dev/chapter-10-kinematics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5-humanoid-dev/chapter-11-hri",
+              "path": "/ur/docs/part5-humanoid-dev/chapter-11-hri",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5-humanoid-dev/chapter-12-capstone",
+              "path": "/ur/docs/part5-humanoid-dev/chapter-12-capstone",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "toc",
+              "path": "/ur/docs/toc"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ur/docs/intro",
+                "label": "Course Overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

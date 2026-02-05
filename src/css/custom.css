@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap");
+
+:root {
+  /* --- THE GREAT ORANGE UPDATE --- */
+  --ifm-color-primary: #ff8c00;       /* Dark Orange */
+  --ifm-color-primary-dark: #e67e00;
+  --ifm-color-primary-darker: #d97700;
+  --ifm-color-primary-darkest: #b36200;
+  --ifm-color-primary-light: #ffa333;
+  --ifm-color-primary-lighter: #ffaf4d;
+  --ifm-color-primary-lightest: #ffc280;
+  
+  --ifm-code-font-size: 95%;
+  --ifm-background-color: #0a0a0a;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 140, 0, 0.1);
+}
+
+/* Base Typography & Background */
+html {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: var(--ifm-background-color);
+  color: #ffffff;
+}
+
+/* --- SIDEBAR & NAVIGATION FIXES --- */
+
+/* Sidebar Active Link (The Green Fix) */
+.menu__link--active {
+  color: var(--ifm-color-primary) !important;
+  background-color: rgba(255, 140, 0, 0.05) !important;
+  border-left: 3px solid var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Sidebar Hover State */
+.menu__link:hover {
+  color: var(--ifm-color-primary);
+  background-color: rgba(255, 140, 0, 0.03);
+}
+
+/* Breadcrumbs (Home Icon Fix) */
+.breadcrumbs__link {
+  color: var(--ifm-color-primary) !important;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  background: rgba(255, 140, 0, 0.1) !important;
+}
+
+/* --- NEXT LEVEL ROBOT ICON --- */
+
+.robot-icon {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  animation: float 4s ease-in-out infinite;
+  filter: drop-shadow(0 0 5px rgba(255, 140, 0, 0.3));
+}
+
+.robot-icon .left-eye,
+.robot-icon .right-eye {
+  animation: dynamic-blink 5s infinite;
+  fill: var(--ifm-color-primary);
+}
+
+@keyframes dynamic-blink {
+  0%, 90%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(2deg); }
+}
+
+/* Pulse for Chat Button */
+.chatbot-button .robot-icon {
+  animation: cyber-pulse 2s infinite ease-in-out;
+}
+
+@keyframes cyber-pulse {
+  0%, 100% { filter: drop-shadow(0 0 5px rgba(255, 140, 0, 0.4)); }
+  50% { filter: drop-shadow(0 0 15px rgba(255, 140, 0, 0.8)); }
+}
+
+/* --- HERO SECTION --- */
+.hero__title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  background: linear-gradient(to bottom, #fff, #888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__subtitle {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #aaaaaa;
+}
+
+/* --- TABLE OF CONTENTS (Right Sidebar) --- */
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary) !important;
+  border-left-color: var(--ifm-color-primary) !important;
+}

@@ -1,0 +1,478 @@
+title: "Physical AI & Humanoid Robotics Assessments"
+description: "Comprehensive assessment system for evaluating student progress and skills"
+version: "1.0.0"
+created_date: "2025-12-28"
+
+assessments:
+  - id: "ros2-basics-quiz"
+    title: "ROS 2 Basics Quiz"
+    module: "module-1"
+    type: "quiz"
+    duration: 2
+    points: 100
+    week: 5
+    description: "Comprehensive quiz covering ROS 2 fundamentals, architecture, and basic programming concepts"
+    learning_outcomes:
+      - "Explain ROS 2 architecture and design principles"
+      - "Understand DDS communication middleware"
+      - "Set up ROS 2 development environment"
+      - "Navigate ROS 2 workspace structure"
+    prerequisites:
+      - "Complete chapters 1.1 through 1.4"
+      - "Basic Python programming knowledge"
+      - "Linux command line familiarity"
+    questions:
+      - id: "q1"
+        type: "multiple_choice"
+        question: "What is the primary communication middleware used by ROS 2?"
+        difficulty: "beginner"
+        points: 10
+        options:
+          - "TCP/IP"
+          - "DDS (Data Distribution Service)"
+          - "HTTP/HTTPS"
+          - "WebSocket"
+        correct_answer: "DDS (Data Distribution Service)"
+        explanation: "ROS 2 uses DDS as its underlying communication middleware, providing a robust publish-subscribe model for distributed systems."
+      
+      - id: "q2"
+        type: "multiple_choice"
+        question: "Which command is used to create a new ROS 2 workspace?"
+        difficulty: "beginner"
+        points: 10
+        options:
+          - "ros2 create_workspace"
+          - "mkdir -p workspace/src"
+          - "colcon build"
+          - "ros2 init"
+        correct_answer: "mkdir -p workspace/src"
+        explanation: "A ROS 2 workspace is created by making a directory structure with a src subdirectory where packages are placed."
+      
+      - id: "q3"
+        type: "true_false"
+        question: "ROS 2 nodes can communicate directly with each other without using topics."
+        difficulty: "intermediate"
+        points: 15
+        correct_answer: false
+        explanation: "ROS 2 nodes primarily communicate through topics using the publish-subscribe pattern, though services and actions provide direct communication for specific use cases."
+      
+      - id: "q4"
+        type: "short_answer"
+        question: "What is the purpose of a URDF file in ROS 2?"
+        difficulty: "intermediate"
+        points: 15
+        correct_answer: "To define robot models with physical properties, visual representations, and joint configurations"
+        explanation: "URDF (Unified Robot Description Format) files define the physical structure of robots including links, joints, sensors, and visual/collision geometries."
+      
+      - id: "q5"
+        type: "code_completion"
+        question: "Complete the following Python code to create a simple ROS 2 publisher:"
+        difficulty: "intermediate"
+        points: 20
+        code_template: |
+          #!/usr/bin/env python3
+          import rclpy
+          from rclpy.node import Node
+          from std_msgs.msg import String
+          
+          class SimplePublisher(Node):
+              def __init__(self):
+                  super().__init__('simple_publisher')
+                  self.publisher_ = self.create_publisher(String, 'topic', 10)
+                  timer_period = 1.0
+                  self.timer = self.create_timer(timer_period, self.______)
+                  self.count = 0
+              
+              def timer_callback(self):
+                  msg = String()
+                  msg.data = f'Hello World: {self.count}'
+                  self.publisher_.publish(msg)
+                  self.get_logger().info(f'Publishing: "{msg.data}"')
+                  self.count += 1
+        correct_answer: "timer_callback"
+        explanation: "The timer_callback method is passed to create_timer() to be called periodically at the specified rate."
+      
+      - id: "q6"
+        type: "multiple_choice"
+        question: "Which ROS 2 command lists all available packages?"
+        difficulty: "beginner"
+        points: 10
+        options:
+          - "ros2 pkg list"
+          - "ros2 packages"
+          - "ros2 show packages"
+          - "ros2 list packages"
+        correct_answer: "ros2 pkg list"
+        explanation: "The 'ros2 pkg list' command displays all packages available in the current ROS 2 environment."
+      
+      - id: "q7"
+        type: "matching"
+        question: "Match the ROS 2 concept with its description:"
+        difficulty: "intermediate"
+        points: 20
+        pairs:
+          - concept: "Node"
+            description: "Computational unit that performs processing"
+          - concept: "Topic"
+            description: "Named channel for message exchange"
+          - concept: "Service"
+            description: "Request-response communication pattern"
+          - concept: "Action"
+            description: "Long-running goal-oriented task"
+    resources:
+      - title: "ROS 2 Documentation"
+        url: "https://docs.ros.org/en/humble/"
+      - title: "ROS 2 Tutorials"
+        url: "https://docs.ros.org/en/humble/Tutorials.html"
+      - title: "Python rclpy API"
+        url: "https://docs.ros.org/en/humble/Contributing/APIs.html"
+    submission_format: "Online quiz interface"
+    passing_score: 70
+    time_limit: 120
+
+  - id: "gazebo-robot-project"
+    title: "Gazebo Project - Build Custom Robot"
+    module: "module-2"
+    type: "project"
+    duration: 8
+    points: 150
+    week: 7
+    description: "Design, build, and simulate a custom mobile robot in Gazebo with sensors and navigation capabilities"
+    learning_outcomes:
+      - "Create simulation environments in Gazebo"
+      - "Configure physics engines and collision detection"
+      - "Simulate sensors and actuators"
+      - "Optimize simulation performance"
+    prerequisites:
+      - "Complete Module 1 (ROS 2 fundamentals)"
+      - "Understanding of 3D geometry and physics"
+      - "Basic URDF modeling experience"
+    tasks:
+      - id: "task1"
+        title: "Robot Design and URDF Modeling"
+        description: "Design a 4-wheel differential drive robot with complete URDF model"
+        difficulty: "intermediate"
+        points: 40
+        deliverables:
+          - "Complete URDF file with links, joints, and visual/collision geometries"
+          - "RViz visualization screenshots"
+          - "Joint configuration documentation"
+        rubric:
+          excellent: "Complete URDF with accurate physics, proper joint limits, and clean visual representation (35-40 points)"
+          good: "Functional URDF with minor issues in joint configuration or visual representation (30-34 points)"
+          satisfactory: "Basic URDF structure with some missing components or configuration errors (25-29 points)"
+          needs_improvement: "Incomplete URDF with major structural or configuration issues (20-24 points)"
+      
+      - id: "task2"
+        title: "Gazebo Integration and Physics"
+        description: "Integrate the robot model with Gazebo simulation and configure physics parameters"
+        difficulty: "intermediate"
+        points: 35
+        deliverables:
+          - "Gazebo world file with robot spawned"
+          - "Physics engine configuration"
+          - "Material properties and collision detection setup"
+          - "Performance optimization documentation"
+        rubric:
+          excellent: "Realistic physics simulation with proper collision detection and optimized performance (30-35 points)"
+          good: "Functional physics simulation with minor performance issues (25-29 points)"
+          satisfactory: "Basic physics setup with some configuration problems (20-24 points)"
+          needs_improvement: "Physics simulation not working properly (15-19 points)"
+      
+      - id: "task3"
+        title: "Sensor Integration"
+        description: "Add and configure sensors (LiDAR, camera, IMU) to the robot"
+        difficulty: "advanced"
+        points: 40
+        deliverables:
+          - "Sensor plugins configuration"
+          - "Sensor data visualization in RViz"
+          - "Sensor calibration procedures"
+          - "Noise and accuracy testing results"
+        rubric:
+          excellent: "All sensors properly configured with realistic data and accurate calibration (35-40 points)"
+          good: "Most sensors working with minor calibration issues (30-34 points)"
+          satisfactory: "Basic sensor integration with some configuration problems (25-29 points)"
+          needs_improvement: "Sensors not functioning or major configuration errors (20-24 points)"
+      
+      - id: "task4"
+        title: "Autonomous Navigation"
+        description: "Implement basic autonomous navigation using sensor data"
+        difficulty: "advanced"
+        points: 35
+        deliverables:
+          - "Navigation stack configuration"
+          - "Path planning algorithm implementation"
+          - "Obstacle avoidance demonstration"
+          - "Performance metrics and analysis"
+        rubric:
+          excellent: "Robust autonomous navigation with efficient path planning and obstacle avoidance (30-35 points)"
+          good: "Functional navigation with occasional planning errors (25-29 points)"
+          satisfactory: "Basic navigation capability with limited performance (20-24 points)"
+          needs_improvement: "Navigation not working properly (15-19 points)"
+    resources:
+      - title: "Gazebo Documentation"
+        url: "http://gazebosim.org/tutorials"
+      - title: "URDF Tutorial"
+        url: "http://wiki.ros.org/urdf/Tutorials"
+      - title: "Gazebo ROS Plugins"
+        url: "https://github.com/ros-simulation/gazebo_ros_pkgs"
+    submission_format:
+      - "Git repository with all source code"
+      - "Video demonstration (5-10 minutes)"
+      - "Technical documentation (PDF)"
+      - "Simulation files (.world, .urdf, .launch)"
+    evaluation_criteria:
+      code_quality: 25
+      functionality: 35
+      documentation: 20
+      innovation: 10
+      presentation: 10
+
+  - id: "isaac-slam-project"
+    title: "Isaac SLAM Implementation Project"
+    module: "module-3"
+    type: "project"
+    duration: 12
+    points: 200
+    week: 10
+    description: "Implement visual SLAM system using NVIDIA Isaac Sim with real-time mapping and localization"
+    learning_outcomes:
+      - "Utilize NVIDIA Isaac Sim for robot simulation"
+      - "Implement visual SLAM algorithms"
+      - "Build perception pipelines"
+      - "Optimize SLAM performance"
+    prerequisites:
+      - "Complete Modules 1 and 2"
+      - "Computer vision fundamentals"
+      - "Linear algebra and probability theory"
+      - "GPU programming experience"
+    tasks:
+      - id: "task1"
+        title: "Isaac Sim Environment Setup"
+        description: "Create photorealistic simulation environment for SLAM testing"
+        difficulty: "intermediate"
+        points: 50
+        deliverables:
+          - "Isaac Sim world file with realistic environment"
+          - "Camera and sensor configuration"
+          - "Lighting and material setup"
+          - "Performance benchmarking"
+        rubric:
+          excellent: "Photorealistic environment with optimized performance and accurate sensor simulation (45-50 points)"
+          good: "Realistic environment with minor performance issues (40-44 points)"
+          satisfactory: "Basic environment setup with some configuration problems (35-39 points)"
+          needs_improvement: "Environment not properly configured (30-34 points)"
+      
+      - id: "task2"
+        title: "Visual SLAM Algorithm Implementation"
+        description: "Implement feature detection and mapping algorithms"
+        difficulty: "advanced"
+        points: 60
+        deliverables:
+          - "Feature detection pipeline (ORB, SIFT, or custom)"
+          - "Bundle adjustment implementation"
+          - "Loop closure detection"
+          - "Optimization algorithms"
+        rubric:
+          excellent: "Robust SLAM implementation with accurate mapping and localization (55-60 points)"
+          good: "Functional SLAM with occasional drift or errors (50-54 points)"
+          satisfactory: "Basic SLAM implementation with limited accuracy (45-49 points)"
+          needs_improvement: "SLAM not working properly (40-44 points)"
+      
+      - id: "task3"
+        title: "Real-time Performance Optimization"
+        description: "Optimize SLAM algorithms for real-time performance"
+        difficulty: "advanced"
+        points: 45
+        deliverables:
+          - "GPU acceleration implementation"
+          - "Multi-threading optimization"
+          - "Memory management improvements"
+          - "Performance profiling results"
+        rubric:
+          excellent: "Real-time performance with <30ms processing time (40-45 points)"
+          good: "Near real-time performance with 30-60ms processing time (35-39 points)"
+          satisfactory: "Functional but slow performance (>60ms) (30-34 points)"
+          needs_improvement: "Performance not optimized (25-29 points)"
+      
+      - id: "task4"
+        title: "Evaluation and Validation"
+        description: "Comprehensive testing and validation of SLAM system"
+        difficulty: "intermediate"
+        points: 45
+        deliverables:
+          - "Accuracy metrics and analysis"
+          - "Comparison with ground truth"
+          - "Robustness testing results"
+          - "Failure case analysis"
+        rubric:
+          excellent: "Comprehensive evaluation with detailed analysis and robust performance (40-45 points)"
+          good: "Thorough evaluation with minor gaps in analysis (35-39 points)"
+          satisfactory: "Basic testing with limited analysis (30-34 points)"
+          needs_improvement: "Insufficient testing or evaluation (25-29 points)"
+    resources:
+      - title: "NVIDIA Isaac Sim Documentation"
+        url: "https://docs.nvidia.com/isaac/"
+      - title: "Visual SLAM Algorithms"
+        url: "https://github.com/uoip/monoVO-python"
+      - title: "OpenCV Documentation"
+        url: "https://opencv.org/"
+    submission_format:
+      - "Complete source code repository"
+      - "Technical report (10-15 pages)"
+      - "Video demonstration with performance metrics"
+      - "Evaluation datasets and results"
+    evaluation_criteria:
+      algorithm_quality: 30
+      performance: 25
+      documentation: 20
+      innovation: 15
+      presentation: 10
+
+  - id: "vla-capstone"
+    title: "VLA Capstone - Autonomous Humanoid"
+    module: "module-4"
+    type: "capstone"
+    duration: 20
+    points: 300
+    week: 13
+    description: "Complete integration project building an autonomous humanoid robot with full Vision-Language-Action capabilities"
+    learning_outcomes:
+      - "Integrate all course technologies"
+      - "Build complete autonomous system"
+      - "Test and validate robot performance"
+      - "Document and present results"
+    prerequisites:
+      - "Complete all previous modules"
+      - "System integration experience"
+      - "AI/ML model deployment skills"
+    tasks:
+      - id: "task1"
+        title: "System Architecture Design"
+        description: "Design complete system architecture integrating ROS 2, simulation, AI, and VLA components"
+        difficulty: "advanced"
+        points: 60
+        deliverables:
+          - "System architecture diagrams"
+          - "Component integration plan"
+          - "Data flow design"
+          - "Performance requirements specification"
+        rubric:
+          excellent: "Comprehensive architecture with optimal component integration and clear data flow (55-60 points)"
+          good: "Well-designed architecture with minor integration issues (50-54 points)"
+          satisfactory: "Basic architecture with some design flaws (45-49 points)"
+          needs_improvement: "Incomplete or poorly designed architecture (40-44 points)"
+      
+      - id: "task2"
+        title: "Humanoid Robot Integration"
+        description: "Integrate humanoid robot model with all required sensors and actuators"
+        difficulty: "advanced"
+        points: 70
+        deliverables:
+          - "Complete humanoid URDF model"
+          - "Sensor and actuator integration"
+          - "Motion control implementation"
+          - "Balance and stability algorithms"
+        rubric:
+          excellent: "Fully functional humanoid with realistic motion and stability (65-70 points)"
+          good: "Functional humanoid with minor motion or stability issues (60-64 points)"
+          satisfactory: "Basic humanoid integration with limited functionality (55-59 points)"
+          needs_improvement: "Humanoid not properly integrated (50-54 points)"
+      
+      - id: "task3"
+        title: "Vision-Language Integration"
+        description: "Implement vision processing and language understanding for robot interaction"
+        difficulty: "advanced"
+        points: 80
+        deliverables:
+          - "Computer vision pipeline"
+          - "Speech recognition integration (Whisper)"
+          - "LLM-based planning system"
+          - "Multi-modal interaction interface"
+        rubric:
+          excellent: "Seamless VLA integration with natural interaction capabilities (75-80 points)"
+          good: "Functional VLA system with occasional interaction errors (70-74 points)"
+          satisfactory: "Basic VLA integration with limited capabilities (65-69 points)"
+          needs_improvement: "VLA system not working properly (60-64 points)"
+      
+      - id: "task4"
+        title: "Autonomous Operation Demo"
+        description: "Demonstrate complete autonomous operation in complex scenarios"
+        difficulty: "expert"
+        points: 90
+        deliverables:
+          - "Autonomous task execution"
+          - "Complex scenario handling"
+          - "Error recovery mechanisms"
+          - "Performance optimization"
+        rubric:
+          excellent: "Robust autonomous operation with excellent performance and error handling (85-90 points)"
+          good: "Functional autonomous operation with occasional errors (80-84 points)"
+          satisfactory: "Basic autonomous capabilities with limited performance (75-79 points)"
+          needs_improvement: "Autonomous operation not working properly (70-74 points)"
+    resources:
+      - title: "Humanoid Robot Research"
+        url: "https://humanoid.ist.uni-karlsruhe.de/"
+      - title: "OpenAI API Documentation"
+        url: "https://platform.openai.com/docs"
+      - title: "ROS 2 Navigation"
+        url: "https://navigation.ros.org/"
+    submission_format:
+      - "Complete project repository"
+      - "Comprehensive technical report (20+ pages)"
+      - "Video demonstration (15-20 minutes)"
+      - "Live presentation slides"
+      - "Performance evaluation report"
+    evaluation_criteria:
+      system_integration: 30
+      autonomous_capability: 25
+      innovation: 20
+      documentation: 15
+      presentation: 10
+
+assessment_schedule:
+  - week: 5
+    assessment: "ros2-basics-quiz"
+    type: "quiz"
+    weight: 15
+  
+  - week: 7
+    assessment: "gazebo-robot-project"
+    type: "project"
+    weight: 20
+  
+  - week: 10
+    assessment: "isaac-slam-project"
+    type: "project"
+    weight: 25
+  
+  - week: 13
+    assessment: "vla-capstone"
+    type: "capstone"
+    weight: 40
+
+grading_scale:
+  A: 90-100
+  B: 80-89
+  C: 70-79
+  D: 60-69
+  F: 0-59
+
+submission_guidelines:
+  late_policy: "10% penalty per day late, maximum 5 days"
+  academic_integrity: "All work must be original. Proper citation required for external resources."
+  collaboration: "Discussion encouraged, but submission must be individual work."
+  format_requirements: "Follow specified submission formats exactly. Include all required deliverables."
+
+certificate_requirements:
+  minimum_grade: 70
+  required_assessments:
+    - "ros2-basics-quiz"
+    - "gazebo-robot-project"
+    - "isaac-slam-project"
+    - "vla-capstone"
+  additional_criteria:
+    - "Complete all learning path requirements"
+    - "Submit all project deliverables on time"
+    - "Demonstrate practical competency in final presentation"

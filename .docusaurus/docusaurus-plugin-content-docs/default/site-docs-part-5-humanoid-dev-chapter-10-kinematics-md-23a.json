@@ -1,0 +1,28 @@
+{
+  "id": "part5-humanoid-dev/chapter-10-kinematics",
+  "title": "Chapter 10: Humanoid Kinematics & Dynamics",
+  "description": "Introduction",
+  "source": "@site/docs/part5-humanoid-dev/chapter-10-kinematics.md",
+  "sourceDirName": "part5-humanoid-dev",
+  "slug": "/part5-humanoid-dev/chapter-10-kinematics",
+  "permalink": "/ur/docs/part5-humanoid-dev/chapter-10-kinematics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part5-humanoid-dev/chapter-10-kinematics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Chapter 10: Humanoid Kinematics & Dynamics",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9: Reinforcement Learning for Robot Control",
+    "permalink": "/ur/docs/part4-ai-integration/chapter-9-rl"
+  },
+  "next": {
+    "title": "Chapter 11: Human-Robot Interaction",
+    "permalink": "/ur/docs/part5-humanoid-dev/chapter-11-hri"
+  }
+}

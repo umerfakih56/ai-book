@@ -1,0 +1,20 @@
+{
+  "id": "learning-paths/complete-physical-ai",
+  "title": "Complete Physical AI Course",
+  "description": "Comprehensive 13-week program covering all aspects of physical AI and humanoid robotics. Ideal for students seeking complete mastery of the field.",
+  "source": "@site/docs/learning-paths/complete-physical-ai.mdx",
+  "sourceDirName": "learning-paths",
+  "slug": "/learning-paths/complete-physical-ai",
+  "permalink": "/ur/docs/learning-paths/complete-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/learning-paths/complete-physical-ai.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Complete Physical AI Course",
+    "description": "Comprehensive 13-week program covering all aspects of physical AI and humanoid robotics. Ideal for students seeking complete mastery of the field.",
+    "sidebar_position": 1
+  }
+}

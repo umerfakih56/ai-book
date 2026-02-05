@@ -1,0 +1,22 @@
+{
+  "id": "module-3/ch3-3",
+  "title": "Path Planning with Nav2",
+  "description": "Advanced navigation systems using ROS 2 Navigation 2 framework for autonomous movement",
+  "source": "@site/docs/module-3/chapter-3.mdx",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/ch3-3",
+  "permalink": "/ur/docs/module-3/ch3-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-3/chapter-3.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "ch3-3",
+    "title": "Path Planning with Nav2",
+    "sidebar_position": 3,
+    "duration": 13,
+    "difficulty": "advanced"
+  }
+}

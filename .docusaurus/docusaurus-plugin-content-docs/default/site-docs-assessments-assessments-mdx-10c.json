@@ -1,0 +1,20 @@
+{
+  "id": "assessments/assessments",
+  "title": "Assessments",
+  "description": "Complete assessment system for Physical AI & Humanoid Robotics course",
+  "source": "@site/docs/assessments/assessments.mdx",
+  "sourceDirName": "assessments",
+  "slug": "/assessments/",
+  "permalink": "/ur/docs/assessments/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/assessments/assessments.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Assessments",
+    "description": "Complete assessment system for Physical AI & Humanoid Robotics course",
+    "sidebar_position": 3
+  }
+}

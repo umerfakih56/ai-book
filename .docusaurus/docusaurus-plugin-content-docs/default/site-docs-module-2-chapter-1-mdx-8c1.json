@@ -1,0 +1,22 @@
+{
+  "id": "module-2/ch2-1",
+  "title": "Gazebo Simulation Environment",
+  "description": "Set up and configure Gazebo for robotic simulation with ROS 2 integration",
+  "source": "@site/docs/module-2/chapter-1.mdx",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/ch2-1",
+  "permalink": "/ur/docs/module-2/ch2-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-2/chapter-1.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "ch2-1",
+    "title": "Gazebo Simulation Environment",
+    "sidebar_position": 1,
+    "duration": 12,
+    "difficulty": "intermediate"
+  }
+}

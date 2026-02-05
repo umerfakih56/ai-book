@@ -1,0 +1,22 @@
+{
+  "id": "module-4/ch4-4",
+  "title": "Capstone Project - Autonomous Humanoid",
+  "description": "Complete integration project building an autonomous humanoid robot with full VLA capabilities",
+  "source": "@site/docs/module-4/chapter-4.mdx",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/ch4-4",
+  "permalink": "/ur/docs/module-4/ch4-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-4/chapter-4.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "ch4-4",
+    "title": "Capstone Project - Autonomous Humanoid",
+    "sidebar_position": 4,
+    "duration": 15,
+    "difficulty": "advanced"
+  }
+}

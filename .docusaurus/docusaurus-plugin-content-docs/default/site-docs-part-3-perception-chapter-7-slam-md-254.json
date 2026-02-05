@@ -1,0 +1,28 @@
+{
+  "id": "part3-perception/chapter-7-slam",
+  "title": "Chapter 7: Visual SLAM with Isaac ROS",
+  "description": "7.1 Introduction to VSLAM",
+  "source": "@site/docs/part3-perception/chapter-7-slam.md",
+  "sourceDirName": "part3-perception",
+  "slug": "/part3-perception/chapter-7-slam",
+  "permalink": "/ur/docs/part3-perception/chapter-7-slam",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part3-perception/chapter-7-slam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Chapter 7: Visual SLAM with Isaac ROS",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 6: Robot Vision with RealSense & OpenCV",
+    "permalink": "/ur/docs/part3-perception/chapter-6-vision"
+  },
+  "next": {
+    "title": "Chapter 8: Vision-Language-Action Models",
+    "permalink": "/ur/docs/part4-ai-integration/chapter-8-vla"
+  }
+}

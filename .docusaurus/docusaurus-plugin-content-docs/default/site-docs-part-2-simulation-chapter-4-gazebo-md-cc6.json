@@ -1,0 +1,28 @@
+{
+  "id": "part2-simulation/chapter-4-gazebo",
+  "title": "Chapter 4: Physics Simulation with Gazebo",
+  "description": "4.1 Setting Up Gazebo Simulation Environment",
+  "source": "@site/docs/part2-simulation/chapter-4-gazebo.md",
+  "sourceDirName": "part2-simulation",
+  "slug": "/part2-simulation/chapter-4-gazebo",
+  "permalink": "/ur/docs/part2-simulation/chapter-4-gazebo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part2-simulation/chapter-4-gazebo.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Chapter 4: Physics Simulation with Gazebo",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Robot Modeling with URDF/SDF",
+    "permalink": "/ur/docs/part2-simulation/chapter-3-urdf"
+  },
+  "next": {
+    "title": "Chapter 5: NVIDIA Isaac Sim",
+    "permalink": "/ur/docs/part2-simulation/chapter-5-isaac"
+  }
+}

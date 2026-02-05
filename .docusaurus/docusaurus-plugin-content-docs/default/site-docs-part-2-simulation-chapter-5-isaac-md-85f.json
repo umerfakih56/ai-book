@@ -1,0 +1,28 @@
+{
+  "id": "part2-simulation/chapter-5-isaac",
+  "title": "Chapter 5: High-Fidelity Simulation with NVIDIA Isaac Sim",
+  "description": "5.1 Introduction to Omniverse & Isaac Sim",
+  "source": "@site/docs/part2-simulation/chapter-5-isaac.md",
+  "sourceDirName": "part2-simulation",
+  "slug": "/part2-simulation/chapter-5-isaac",
+  "permalink": "/ur/docs/part2-simulation/chapter-5-isaac",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part2-simulation/chapter-5-isaac.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Chapter 5: High-Fidelity Simulation with NVIDIA Isaac Sim",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: Physics Simulation with Gazebo",
+    "permalink": "/ur/docs/part2-simulation/chapter-4-gazebo"
+  },
+  "next": {
+    "title": "Chapter 6: Robot Vision with RealSense & OpenCV",
+    "permalink": "/ur/docs/part3-perception/chapter-6-vision"
+  }
+}

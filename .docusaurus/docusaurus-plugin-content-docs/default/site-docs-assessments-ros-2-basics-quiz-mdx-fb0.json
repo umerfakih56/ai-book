@@ -1,0 +1,20 @@
+{
+  "id": "assessments/ros2-basics-quiz",
+  "title": "ROS 2 Basics Quiz",
+  "description": "Comprehensive quiz covering ROS 2 fundamentals, architecture, and basic programming concepts",
+  "source": "@site/docs/assessments/ros2-basics-quiz.mdx",
+  "sourceDirName": "assessments",
+  "slug": "/assessments/ros2-basics-quiz",
+  "permalink": "/ur/docs/assessments/ros2-basics-quiz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/assessments/ros2-basics-quiz.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "ROS 2 Basics Quiz",
+    "description": "Comprehensive quiz covering ROS 2 fundamentals, architecture, and basic programming concepts",
+    "sidebar_position": 1
+  }
+}

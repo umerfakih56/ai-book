@@ -1,0 +1,20 @@
+{
+  "id": "learning-paths/quick-start",
+  "title": "Quick Start Path",
+  "description": "Essential chapters only for rapid deployment. Perfect for teams needing to get started quickly with core concepts.",
+  "source": "@site/docs/learning-paths/quick-start.mdx",
+  "sourceDirName": "learning-paths",
+  "slug": "/learning-paths/quick-start",
+  "permalink": "/ur/docs/learning-paths/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/learning-paths/quick-start.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Quick Start Path",
+    "description": "Essential chapters only for rapid deployment. Perfect for teams needing to get started quickly with core concepts.",
+    "sidebar_position": 1
+  }
+}

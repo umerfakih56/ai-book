@@ -1,0 +1,552 @@
+title: "Physical AI & Humanoid Robotics"
+description: "A comprehensive guide to building intelligent humanoid robots using ROS 2, simulation platforms, and AI technologies"
+author: "Umer Fakih"
+version: "1.0.0"
+published_date: "2025-12-28"
+last_updated: "2025-12-28"
+license: "MIT"
+language: "en"
+tags:
+  - "robotics"
+  - "artificial intelligence"
+  - "humanoid robots"
+  - "ros2"
+  - "simulation"
+  - "machine learning"
+
+modules:
+  - id: "module-1"
+    title: "The Robotic Nervous System (ROS 2)"
+    description: "Master the Robot Operating System 2 framework for building distributed robotic applications"
+    duration: 40
+    difficulty: "intermediate"
+    prerequisites:
+      - "Python programming basics"
+      - "Linux command line familiarity"
+      - "Basic understanding of distributed systems"
+    learning_outcomes:
+      - "Understand ROS 2 architecture and communication patterns"
+      - "Create and manage ROS 2 nodes and topics"
+      - "Design robot models using URDF"
+      - "Develop Python applications using rclpy"
+    keywords:
+      - "ros2"
+      - "robot operating system"
+      - "distributed computing"
+      - "urdf"
+      - "rclpy"
+    chapters:
+      - id: "ch1-1"
+        title: "ROS 2 Architecture & Concepts"
+        description: "Introduction to ROS 2 framework, its architecture, and core concepts for robotic development"
+        duration: 10
+        difficulty: "beginner"
+        learning_outcomes:
+          - "Explain ROS 2 architecture and design principles"
+          - "Understand DDS communication middleware"
+          - "Set up ROS 2 development environment"
+          - "Navigate ROS 2 workspace structure"
+        prerequisites:
+          - "Basic programming knowledge"
+          - "Linux fundamentals"
+        keywords:
+          - "ros2 architecture"
+          - "dds"
+          - "middleware"
+          - "workspace setup"
+        resources:
+          - "https://docs.ros.org/en/humble/"
+          - "https://www.ros.org/"
+          - "https://github.com/ros2/ros2_documentation"
+      
+      - id: "ch1-2"
+        title: "Nodes, Topics, Services & Actions"
+        description: "Deep dive into ROS 2 communication patterns including publish/subscribe, request/response, and goal-based interactions"
+        duration: 12
+        difficulty: "intermediate"
+        learning_outcomes:
+          - "Implement publisher and subscriber nodes"
+          - "Create and use ROS 2 services"
+          - "Develop action servers and clients"
+          - "Debug communication issues"
+        prerequisites:
+          - "ROS 2 basics"
+          - "Python programming"
+        keywords:
+          - "ros2 nodes"
+          - "topics"
+          - "services"
+          - "actions"
+          - "communication patterns"
+        resources:
+          - "https://docs.ros.org/en/humble/Tutorials/"
+          - "https://github.com/ros2/examples"
+      
+      - id: "ch1-3"
+        title: "URDF & Robot Description Formats"
+        description: "Learn to create robot models using Unified Robot Description Format and visual representations"
+        duration: 10
+        difficulty: "intermediate"
+        learning_outcomes:
+          - "Design URDF models for robots"
+          - "Add visual and collision geometries"
+          - "Configure joint types and limits"
+          - "Launch robot models in RViz"
+        prerequisites:
+          - "Basic 3D geometry concepts"
+          - "XML familiarity"
+        keywords:
+          - "urdf"
+          - "robot modeling"
+          - "rviz"
+          - "joint configuration"
+          - "collision detection"
+        resources:
+          - "http://wiki.ros.org/urdf"
+          - "https://github.com/ros/urdf_tutorial"
+      
+      - id: "ch1-4"
+        title: "Python rclpy Programming"
+        description: "Develop complete ROS 2 applications using Python client library rclpy"
+        duration: 8
+        difficulty: "intermediate"
+        learning_outcomes:
+          - "Write ROS 2 nodes in Python"
+          - "Handle message types and serialization"
+          - "Implement parameter servers"
+          - "Create launch files for complex systems"
+        prerequisites:
+          - "Python programming proficiency"
+          - "ROS 2 concepts understanding"
+        keywords:
+          - "rclpy"
+          - "python ros2"
+          - "message handling"
+          - "launch files"
+          - "parameters"
+        resources:
+          - "https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/"
+          - "https://github.com/ros2/rclpy"
+
+  - id: "module-2"
+    title: "The Digital Twin (Gazebo & Unity)"
+    description: "Create realistic robot simulations using Gazebo and Unity for testing and development"
+    duration: 45
+    difficulty: "intermediate"
+    prerequisites:
+      - "ROS 2 fundamentals"
+      - "3D graphics basics"
+      - "Physics simulation concepts"
+    learning_outcomes:
+      - "Build simulation environments in Gazebo"
+      - "Configure physics engines and collision detection"
+      - "Simulate sensors and actuators"
+      - "Integrate Unity with robotic systems"
+    keywords:
+      - "gazebo"
+      - "unity"
+      - "physics simulation"
+      - "digital twin"
+      - "sensor simulation"
+    chapters:
+      - id: "ch2-1"
+        title: "Gazebo Simulation Environment"
+        description: "Set up and configure Gazebo for robotic simulation with ROS 2 integration"
+        duration: 12
+        difficulty: "intermediate"
+        learning_outcomes:
+          - "Install and configure Gazebo simulator"
+          - "Create simulation worlds and environments"
+          - "Integrate Gazebo with ROS 2"
+          - "Debug simulation issues"
+        prerequisites:
+          - "ROS 2 experience"
+          - "Linux system administration"
+        keywords:
+          - "gazebo simulator"
+          - "world files"
+          - "ros2 gazebo"
+          - "simulation setup"
+        resources:
+          - "http://gazebosim.org/"
+          - "https://github.com/ros-simulation/gazebo_ros_pkgs"
+      
+      - id: "ch2-2"
+        title: "Physics Simulation & Collisions"
+        description: "Master physics engines, collision detection, and realistic material properties"
+        duration: 10
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Configure physics engine parameters"
+          - "Design collision geometries"
+          - "Implement realistic material properties"
+          - "Optimize simulation performance"
+        prerequisites:
+          - "Physics fundamentals"
+          - "Computational geometry"
+        keywords:
+          - "physics engine"
+          - "collision detection"
+          - "material properties"
+          - "simulation optimization"
+        resources:
+          - "http://gazebosim.org/tutorials"
+          - "https://github.com/osrf/gazebo"
+      
+      - id: "ch2-3"
+        title: "Sensor Simulation (LiDAR, Cameras, IMUs)"
+        description: "Simulate various robot sensors including LiDAR, cameras, and inertial measurement units"
+        duration: 12
+        difficulty: "intermediate"
+        learning_outcomes:
+          - "Configure LiDAR sensors in simulation"
+          - "Set up camera systems with realistic parameters"
+          - "Implement IMU and GPS sensors"
+          - "Generate sensor data for algorithm testing"
+        prerequisites:
+          - "Sensor technology basics"
+          - "Signal processing fundamentals"
+        keywords:
+          - "lidar simulation"
+          - "camera simulation"
+          - "imu simulation"
+          - "sensor modeling"
+        resources:
+          - "https://github.com/ros-simulation/gazebo_ros_pkgs"
+          - "http://gazebosim.org/tutorials"
+      
+      - id: "ch2-4"
+        title: "Environment and Scene Building"
+        description: "Create complex simulation environments and scenes for testing humanoid robots"
+        duration: 11
+        difficulty: "intermediate"
+        learning_outcomes:
+          - "Design indoor and outdoor environments"
+          - "Add interactive elements and obstacles"
+          - "Create dynamic scenarios"
+          - "Optimize scene performance"
+        prerequisites:
+          - "3D modeling basics"
+          - "Scene design principles"
+        keywords:
+          - "scene building"
+          - "environment design"
+          - "obstacle placement"
+          - "dynamic scenarios"
+        resources:
+          - "https://github.com/osrf/gazebo_models"
+          - "http://gazebosim.org/tutorials"
+
+  - id: "module-3"
+    title: "The AI-Robot Brain (NVIDIA Isaac)"
+    description: "Implement AI-powered robotics using NVIDIA Isaac Sim platform for advanced perception and control"
+    duration: 50
+    difficulty: "advanced"
+    prerequisites:
+      - "Machine learning fundamentals"
+      - "Computer vision basics"
+      - "ROS 2 proficiency"
+      - "GPU programming concepts"
+    learning_outcomes:
+      - "Utilize NVIDIA Isaac Sim for robot simulation"
+      - "Implement visual SLAM algorithms"
+      - "Develop navigation systems with Nav2"
+      - "Transfer simulation to real robots"
+    keywords:
+      - "nvidia isaac"
+      - "visual slam"
+      - "navigation"
+      - "sim2real"
+      - "robot perception"
+    chapters:
+      - id: "ch3-1"
+        title: "NVIDIA Isaac Sim Platform"
+        description: "Introduction to NVIDIA Isaac Sim for photorealistic robot simulation and AI development"
+        duration: 15
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Set up NVIDIA Isaac Sim environment"
+          - "Create photorealistic simulations"
+          - "Integrate AI models with simulation"
+          - "Use Isaac Sim for robot development"
+        prerequisites:
+          - "GPU computing knowledge"
+          - "Machine learning experience"
+          - "ROS 2 expertise"
+        keywords:
+          - "nvidia isaac sim"
+          - "photorealistic simulation"
+          - "gpu computing"
+          - "ai integration"
+        resources:
+          - "https://developer.nvidia.com/isaac-sim"
+          - "https://docs.nvidia.com/isaac/"
+      
+      - id: "ch3-2"
+        title: "Visual SLAM & Perception Pipelines"
+        description: "Implement simultaneous localization and mapping using visual sensors and deep learning"
+        duration: 12
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Design visual SLAM algorithms"
+          - "Implement feature detection and matching"
+          - "Build perception pipelines"
+          - "Optimize SLAM performance"
+        prerequisites:
+          - "Computer vision fundamentals"
+          - "Linear algebra"
+          - "Probability theory"
+        keywords:
+          - "visual slam"
+          - "feature detection"
+          - "perception pipelines"
+          - "localization"
+          - "mapping"
+        resources:
+          - "https://github.com/SteveMacenski/slam_toolbox"
+          - "https://opencv.org/"
+      
+      - id: "ch3-3"
+        title: "Path Planning with Nav2"
+        description: "Advanced navigation systems using ROS 2 Navigation 2 framework for autonomous movement"
+        duration: 13
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Configure Nav2 navigation stack"
+          - "Implement path planning algorithms"
+          - "Handle obstacle avoidance"
+          - "Optimize navigation performance"
+        prerequisites:
+          - "ROS 2 Navigation basics"
+          - "Algorithm design"
+          - "Control theory"
+        keywords:
+          - "nav2"
+          - "path planning"
+          - "obstacle avoidance"
+          - "autonomous navigation"
+        resources:
+          - "https://navigation.ros.org/"
+          - "https://github.com/ros-planning/navigation2"
+      
+      - id: "ch3-4"
+        title: "Sim-to-Real Transfer Techniques"
+        description: "Bridge the gap between simulation and real-world robot deployment"
+        duration: 10
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Implement domain adaptation techniques"
+          - "Handle sensor discrepancies"
+          - "Validate simulation results"
+          - "Deploy robots in real environments"
+        prerequisites:
+          - "Robot control systems"
+          - "System integration"
+          - "Testing methodologies"
+        keywords:
+          - "sim2real"
+          - "domain adaptation"
+          - "robot deployment"
+          - "system validation"
+        resources:
+          - "https://developer.nvidia.com/isaac-sim"
+          - "https://github.com/NVIDIA-Omniverse"
+
+  - id: "module-4"
+    title: "Vision-Language-Action (VLA)"
+    description: "Integrate vision, language, and action systems for intelligent humanoid robot interaction"
+    duration: 55
+    difficulty: "advanced"
+    prerequisites:
+      - "Deep learning fundamentals"
+      - "Natural language processing"
+      - "Computer vision expertise"
+      - "Robot control systems"
+    learning_outcomes:
+      - "Implement voice-to-action systems"
+      - "Design LLM-based cognitive planning"
+      - "Create multi-modal interaction systems"
+      - "Build complete autonomous humanoid"
+    keywords:
+      - "vision language action"
+      - "voice control"
+      - "llm robotics"
+      - "multimodal interaction"
+      - "autonomous humanoid"
+    chapters:
+      - id: "ch4-1"
+        title: "Voice-to-Action Systems (Whisper)"
+        description: "Implement speech recognition and command interpretation using OpenAI Whisper"
+        duration: 14
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Integrate Whisper for speech recognition"
+          - "Design command interpretation systems"
+          - "Handle real-time voice processing"
+          - "Create voice-controlled robot actions"
+        prerequisites:
+          - "Audio processing basics"
+          - "Deep learning models"
+          - "Real-time systems"
+        keywords:
+          - "whisper"
+          - "speech recognition"
+          - "voice control"
+          - "audio processing"
+        resources:
+          - "https://github.com/openai/whisper"
+          - "https://platform.openai.com/"
+      
+      - id: "ch4-2"
+        title: "LLM-based Cognitive Planning"
+        description: "Utilize Large Language Models for robot task planning and decision making"
+        duration: 13
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Integrate LLMs with robot systems"
+          - "Design task planning algorithms"
+          - "Implement reasoning systems"
+          - "Handle complex decision making"
+        prerequisites:
+          - "Natural language processing"
+          - "AI reasoning systems"
+          - "Robot planning algorithms"
+        keywords:
+          - "llm robotics"
+          - "cognitive planning"
+          - "task planning"
+          - "ai reasoning"
+        resources:
+          - "https://platform.openai.com/"
+          - "https://huggingface.co/"
+      
+      - id: "ch4-3"
+        title: "Multi-modal Interaction Design"
+        description: "Create systems that integrate vision, language, and action for natural robot interaction"
+        duration: 13
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Design multi-modal perception systems"
+          - "Integrate vision and language understanding"
+          - "Implement action generation from multi-modal input"
+          - "Create natural interaction interfaces"
+        prerequisites:
+          - "Computer vision expertise"
+          - "NLP fundamentals"
+          - "Multi-modal AI systems"
+        keywords:
+          - "multimodal interaction"
+          - "vision language models"
+          - "action generation"
+          - "natural interfaces"
+        resources:
+          - "https://huggingface.co/"
+          - "https://github.com/openai/CLIP"
+      
+      - id: "ch4-4"
+        title: "Capstone Project - Autonomous Humanoid"
+        description: "Complete integration project building an autonomous humanoid robot with full VLA capabilities"
+        duration: 15
+        difficulty: "advanced"
+        learning_outcomes:
+          - "Integrate all course technologies"
+          - "Build complete autonomous system"
+          - "Test and validate robot performance"
+          - "Document and present results"
+        prerequisites:
+          - "All previous modules completed"
+          - "System integration skills"
+          - "Project management"
+        keywords:
+          - "capstone project"
+          - "autonomous humanoid"
+          - "system integration"
+          - "robot validation"
+        resources:
+          - "https://github.com/ros"
+          - "https://developer.nvidia.com/isaac-sim"
+
+assessments:
+  - name: "ROS 2 Fundamentals Quiz"
+    type: "quiz"
+    module: "module-1"
+    weight: 10
+    description: "Test understanding of ROS 2 concepts and architecture"
+    
+  - name: "ROS 2 Node Implementation Project"
+    type: "project"
+    module: "module-1"
+    weight: 15
+    description: "Build a complete ROS 2 application with multiple nodes and communication patterns"
+    
+  - id: "urdf-modeling-project"
+    name: "URDF Robot Modeling Project"
+    type: "project"
+    module: "module-1"
+    weight: 15
+    description: "Create a detailed URDF model for a humanoid robot"
+    
+  - name: "Gazebo Environment Design"
+    type: "project"
+    module: "module-2"
+    weight: 15
+    description: "Design and implement a complex simulation environment in Gazebo"
+    
+  - name: "Sensor Simulation Integration"
+    type: "project"
+    module: "module-2"
+    weight: 10
+    description: "Integrate multiple sensors in Gazebo with realistic data generation"
+    
+  - name: "Digital Twin Assessment"
+    type: "quiz"
+    module: "module-2"
+    weight: 10
+    description: "Evaluate understanding of digital twin concepts and simulation techniques"
+    
+  - name: "Isaac Sim AI Integration"
+    type: "project"
+    module: "module-3"
+    weight: 15
+    description: "Implement AI models in NVIDIA Isaac Sim for robot perception"
+    
+  - name: "Navigation System Implementation"
+    type: "project"
+    module: "module-3"
+    weight: 15
+    description: "Build complete navigation system using Nav2 and custom algorithms"
+    
+  - name: "Sim-to-Real Validation"
+    type: "project"
+    module: "module-3"
+    weight: 10
+    description: "Validate simulation results and prepare for real robot deployment"
+    
+  - name: "Voice Control System"
+    type: "project"
+    module: "module-4"
+    weight: 15
+    description: "Implement complete voice-to-action system for robot control"
+    
+  - name: "LLM Planning Integration"
+    type: "project"
+    module: "module-4"
+    weight: 15
+    description: "Integrate LLM-based planning with robot action systems"
+    
+  - name: "Multi-modal Interface Design"
+    type: "project"
+    module: "module-4"
+    weight: 10
+    description: "Create natural multi-modal interaction interface for humanoid robot"
+    
+  - name: "Autonomous Humanoid Capstone"
+    type: "capstone"
+    module: "module-4"
+    weight: 25
+    description: "Complete autonomous humanoid robot with full VLA capabilities"
+    requirements:
+      - "Integrate ROS 2, simulation, AI, and VLA systems"
+      - "Demonstrate autonomous operation in complex scenarios"
+      - "Provide comprehensive documentation and testing"
+      - "Present final project with performance metrics"

@@ -1,0 +1,22 @@
+{
+  "id": "module-1/ch1-1",
+  "title": "ROS 2 Architecture & Concepts",
+  "description": "Introduction to ROS 2 framework, its architecture, and core concepts for robotic development",
+  "source": "@site/docs/module-1/chapter-1.mdx",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ch1-1",
+  "permalink": "/ur/docs/module-1/ch1-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-1/chapter-1.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "ch1-1",
+    "title": "ROS 2 Architecture & Concepts",
+    "sidebar_position": 1,
+    "duration": 10,
+    "difficulty": "beginner"
+  }
+}

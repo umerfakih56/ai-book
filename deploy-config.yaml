@@ -1,0 +1,105 @@
+title: "Physical AI & Humanoid Robotics Deployment Configuration"
+description: "Complete deployment configuration for Spec-Kit Plus powered documentation site"
+version: "1.0.0"
+created_date: "2025-12-28"
+
+deployment:
+  type: "github-pages"
+  branch: "gh-pages"
+  base_url: "https://github.com/umerfakih56/ai-book"
+  
+github:
+  owner: "Umer Fakih"
+  repository: "Book"
+  default_branch: "main"
+  
+build:
+  command: "npm run build"
+  output_dir: "build"
+  clean_build: true
+  
+pre_deploy_checks:
+  - name: "validate_spec"
+    command: "python validate-spec.py"
+    required: true
+    error_message: "Spec validation failed. Please fix issues before deployment."
+  
+  - name: "lint_markdown"
+    command: "markdownlint docs/**/*.mdx"
+    required: false
+    error_message: "Markdown linting found issues. Consider fixing before deployment."
+  
+  - name: "check_links"
+    command: "python check-links.py"
+    required: false
+    error_message: "Broken links found. Please review before deployment."
+
+post_deploy_verification:
+  - name: "check_site_live"
+    url: ""
+    timeout: 30
+    expected_status: 200
+  
+  - name: "verify_spec_pages"
+    check_paths:
+      - "/module-1/chapter-1"
+      - "/module-2/chapter-1" 
+      - "/module-3/chapter-1"
+      - "/module-4/chapter-1"
+      - "/learning-paths"
+      - "/assessments"
+
+notifications:
+  slack:
+    webhook_url: "${SLACK_WEBHOOK_URL}"
+    channel: "#deployments"
+    on_success: true
+    on_failure: true
+  
+  email:
+    recipients: ["fakihumar82@gmail.com"]
+    on_success: false
+    on_failure: true
+
+environment:
+  node_version: "18"
+  python_version: "3.12"
+  
+cache:
+  npm: true
+  pip: true
+  
+security:
+  enforce_https: true
+  content_security_policy: "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;"
+
+performance:
+  enable_gzip: true
+  enable_caching: true
+  cache_ttl: 3600
+  
+analytics:
+  google_analytics_id: "${GA_TRACKING_ID}"
+  enable_page_tracking: true
+  
+seo:
+  site_title: "Physical AI & Humanoid Robotics"
+  site_description: "Comprehensive guide to building intelligent humanoid robots using ROS 2, simulation platforms, and AI technologies"
+  keywords: ["robotics", "artificial intelligence", "humanoid robots", "ros2", "simulation", "machine learning"]
+  author: "Shabbir Son"
+  social_image: "/img/og-image.png"
+
+custom_domain:
+  enabled: false
+  domain: "physical-ai.example.com"
+  ssl_certificate: true
+
+rollback:
+  enabled: true
+  max_rollback_versions: 5
+  auto_rollback_on_failure: true
+
+maintenance:
+  enabled_mode: false
+  message: "Site is currently under maintenance. Please check back soon."
+  allowed_ips: []

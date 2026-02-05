@@ -1,0 +1,28 @@
+{
+  "id": "part5-humanoid-dev/chapter-11-hri",
+  "title": "Chapter 11: Human-Robot Interaction for Humanoids",
+  "description": "Introduction to HRI for Humanoid Robots",
+  "source": "@site/docs/part5-humanoid-dev/chapter-11-hri.md",
+  "sourceDirName": "part5-humanoid-dev",
+  "slug": "/part5-humanoid-dev/chapter-11-hri",
+  "permalink": "/ur/docs/part5-humanoid-dev/chapter-11-hri",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/part5-humanoid-dev/chapter-11-hri.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Chapter 11: Human-Robot Interaction for Humanoids",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 10: Humanoid Kinematics & Dynamics",
+    "permalink": "/ur/docs/part5-humanoid-dev/chapter-10-kinematics"
+  },
+  "next": {
+    "title": "Chapter 12: Building an Autonomous Humanoid",
+    "permalink": "/ur/docs/part5-humanoid-dev/chapter-12-capstone"
+  }
+}

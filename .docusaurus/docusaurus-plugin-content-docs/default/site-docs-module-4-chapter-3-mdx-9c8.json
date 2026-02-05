@@ -1,0 +1,22 @@
+{
+  "id": "module-4/ch4-3",
+  "title": "Multi-modal Interaction Design",
+  "description": "Create systems that integrate vision, language, and action for natural robot interaction",
+  "source": "@site/docs/module-4/chapter-3.mdx",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/ch4-3",
+  "permalink": "/ur/docs/module-4/ch4-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-4/chapter-3.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "ch4-3",
+    "title": "Multi-modal Interaction Design",
+    "sidebar_position": 3,
+    "duration": 13,
+    "difficulty": "advanced"
+  }
+}

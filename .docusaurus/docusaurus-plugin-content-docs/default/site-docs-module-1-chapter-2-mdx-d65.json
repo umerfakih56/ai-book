@@ -1,0 +1,22 @@
+{
+  "id": "module-1/ch1-2",
+  "title": "Nodes, Topics, Services & Actions",
+  "description": "Deep dive into ROS 2 communication patterns including publish/subscribe, request/response, and goal-based interactions",
+  "source": "@site/docs/module-1/chapter-2.mdx",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ch1-2",
+  "permalink": "/ur/docs/module-1/ch1-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-1/chapter-2.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "ch1-2",
+    "title": "Nodes, Topics, Services & Actions",
+    "sidebar_position": 2,
+    "duration": 12,
+    "difficulty": "intermediate"
+  }
+}

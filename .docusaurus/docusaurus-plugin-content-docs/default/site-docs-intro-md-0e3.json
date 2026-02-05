@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Physical AI & Humanoid Robotics - Complete Course",
+  "description": "Part 1: Foundations of Physical AI",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ur/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Physical AI & Humanoid Robotics - Complete Course",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1: Introduction to Physical AI",
+    "permalink": "/ur/docs/part1-foundations/chapter-1-intro"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "module-3/ch3-1",
+  "title": "NVIDIA Isaac Sim Platform",
+  "description": "Introduction to NVIDIA Isaac Sim for photorealistic robot simulation and AI development",
+  "source": "@site/docs/module-3/chapter-1.mdx",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/ch3-1",
+  "permalink": "/ur/docs/module-3/ch3-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-3/chapter-1.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "ch3-1",
+    "title": "NVIDIA Isaac Sim Platform",
+    "sidebar_position": 1,
+    "duration": 15,
+    "difficulty": "advanced"
+  }
+}

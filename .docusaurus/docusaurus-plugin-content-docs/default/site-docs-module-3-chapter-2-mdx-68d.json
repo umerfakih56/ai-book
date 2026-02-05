@@ -1,0 +1,22 @@
+{
+  "id": "module-3/ch3-2",
+  "title": "Visual SLAM & Perception Pipelines",
+  "description": "Implement simultaneous localization and mapping using visual sensors and deep learning",
+  "source": "@site/docs/module-3/chapter-2.mdx",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/ch3-2",
+  "permalink": "/ur/docs/module-3/ch3-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-3/chapter-2.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "ch3-2",
+    "title": "Visual SLAM & Perception Pipelines",
+    "sidebar_position": 2,
+    "duration": 12,
+    "difficulty": "advanced"
+  }
+}

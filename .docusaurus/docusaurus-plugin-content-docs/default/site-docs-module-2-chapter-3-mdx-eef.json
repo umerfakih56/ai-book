@@ -1,0 +1,22 @@
+{
+  "id": "module-2/ch2-3",
+  "title": "Sensor Simulation (LiDAR, Cameras, IMUs)",
+  "description": "Simulate various robot sensors including LiDAR, cameras, and inertial measurement units",
+  "source": "@site/docs/module-2/chapter-3.mdx",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/ch2-3",
+  "permalink": "/ur/docs/module-2/ch2-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/umerfakih56/ai-book/edit/main/docs/module-2/chapter-3.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "ch2-3",
+    "title": "Sensor Simulation (LiDAR, Cameras, IMUs)",
+    "sidebar_position": 3,
+    "duration": 12,
+    "difficulty": "intermediate"
+  }
+}
